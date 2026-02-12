@@ -1040,6 +1040,266 @@ The secret crime is: tooting at the playground with Buzz Lightyear.
 Interrogator: “Let’s start with what you did. We’re all still recovering from the smell.” // Criminal guesses: “I tooted?” // Interrogator: “Exactly. But where you did it made it even worse. Didn’t you think about all those poor kids just trying to enjoy the swings?” // Criminal guesses: “The playground?” // Interrogator: “Yes. And we cannot believe who you did this with. You really took this crime to the next level… to infinity and beyond.” // Criminal guesses: “Buzz Lightyear!”`,
   videoUrl: ""
 }
+{
+  number: 67,
+  category: "PHYSICAL GAMES",
+  title: "Ten Seconds to Be a…",
+  text: `**Premise**
+A quick-fire acting game where players jump into a character or object for just ten seconds.
+
+**How to play**
+Take turns giving each other a random, weird prompt. // As soon as the prompt is given, count down from ten while the other person acts it out as fully as they can.
+
+When the countdown ends, stop, laugh, and switch roles with a new prompt.
+
+**Example prompts**
+* A baby bird hatching out of an egg, confused at first, then spotting its mom
+* A rocking chair being built and rocked for the very first time
+* A firework show going off in the sky
+
+**How it works**
+There is no planning time. // The actor jumps in immediately and commits, even if the idea is unclear. // Big choices and exaggerated movement make it more fun.
+
+**Tips for coming up with prompts**
+* Look around the room for inspiration
+* Use inanimate objects as characters
+* Think of a type of movement and work backward
+    * Exploding might become fireworks
+    * Wobbling might become jelly
+* Animals are always a great go-to
+
+**Optional variations**
+* Shorten the countdown to five seconds
+* Add music during the countdown
+* Have the group count down together
+
+**Why this game matters**
+Ten Seconds to Be a… builds confidence, spontaneity, and creative risk-taking. // It helps kids practice jumping into ideas without overthinking and shows that commitment matters more than getting it “right.”`,
+  videoUrl: ""
+},
+
+{
+  number: 68,
+  category: "PHYSICAL GAMES",
+  title: "Sculptor",
+  text: `**Premise**
+A creative movement game where one person gently shapes the other into a pose and then gives it a fun, imaginative title.
+
+**How to play**
+One person is the Sculptor. // The other person is the Sculpture.
+
+Before you begin, quickly agree on consent and boundaries so everyone feels comfortable. // The Sculpture stays loose and relaxed while the Sculptor gently guides them into a position using light, respectful movement.
+
+Once the pose is complete, the Sculptor names the sculpture.
+
+Then switch roles.
+
+**Example**
+The Sculptor positions the Sculpture sitting down with hands on their head. // The Sculptor says, “I call this sculpture: You’re on a roller coaster and your wig just flew off.”
+
+**How it works**
+The Sculptor’s job is to move slowly and clearly. // The Sculpture’s job is to stay relaxed and go along with the shaping.
+
+The pose does not need to make sense at first. // The title brings it to life.
+
+**Optional variations**
+* Let the Sculpture come alive for three seconds after being named
+* Have the Sculpture guess what the title might be before hearing it
+* Take turns sculpting without touching by using only verbal directions
+
+**Helpful tip**
+Big, clear poses work best. // Simple shapes often lead to the funniest titles.
+
+**Why this game matters**
+Sculptor builds trust, body awareness, and creative interpretation. // It encourages kids to collaborate physically in a respectful way and shows how imagination can transform even the simplest pose.`,
+  videoUrl: ""
+},
+
+{
+  number: 69,
+  category: "PHYSICAL GAMES",
+  title: "Lights On, Lights Off",
+  text: `**Premise**
+A dramatic posing game where players strike a pose in the dark and reveal it all at once.
+
+**How to play**
+This game works with two or more players.
+
+One person is the Prompt-Giver. // They give a funny, vivid prompt for a pose. // Then they turn off the lights and count down slowly: “3… 2… 1…”
+
+While the lights are off, the other player or players strike a pose that matches the prompt as dramatically as possible.
+
+At the end of the countdown, the Prompt-Giver turns the lights back on to reveal the poses.
+
+Switch roles and play again with a new prompt.
+
+**How it works**
+The fun comes from the surprise reveal. // Big, exaggerated poses work best. // There is no talking once the lights go off, just commitment.
+
+**Ways to play with groups**
+* Players can work together to create one shared pose
+* Or each person can make their own interpretation of the prompt
+
+Working together is especially great for siblings practicing collaboration and shared decision-making.
+
+**Example prompts**
+* You just looked up and saw a grandma skydiving straight toward you
+* You’re a frog who just fell off your lily pad and feels very embarrassed
+* You’re a snowman whose carrot nose just got eaten by the neighbor’s dog
+* You just caught a whiff of your own stinky armpit and you’re about to faint
+
+**Optional variations**
+* Count down faster or slower
+* Use a flashlight instead of a light switch
+* If you can’t do lights on or lights off or don’t want to, the person counting can simply close their eyes as they count down! The lights just give it an added layer of fun and mischief`,
+  videoUrl: ""
+},
+
+{
+  number: 70,
+  category: "PHYSICAL GAMES",
+  title: "Guess What I’m Eating",
+  text: `**Premise**
+A simple miming game where players act out eating different foods while others guess what it is.
+
+**How to play**
+One person silently pretends to eat a specific food using exaggerated facial expressions, hand movements, and body language. // The other player or players watch closely and try to guess what food is being eaten.
+
+Once the food is guessed, switch roles and choose a new food.
+
+**Example**
+* Pretending to eat a giant cheeseburger by holding hands wide and taking big, dramatic bites
+* Pretending to eat a grape by pinching fingers together and squishing it in your mouth
+
+**How it works**
+The actor does not speak. // Clear, physical choices help make the food recognizable.
+
+**Optional variations**
+* Act out foods with very different textures or temperatures
+* Pretend the food is extremely hot, sour, or spicy
+* Turn it into a group game where everyone guesses at once`,
+  videoUrl: ""
+},
+
+{
+  number: 71,
+  category: "PHYSICAL GAMES",
+  title: "Reverse Charades",
+  text: `**Premise**
+A twist on classic charades where one person directs the action and the other person has to figure out what they’re acting out.
+
+**How to play**
+One person is the Director. // The other person is the Actor.
+
+Instead of acting something out themselves, the Director gives specific physical instructions to guide the Actor’s movements. // The Actor follows the instructions exactly without knowing what they are supposed to be.
+
+Once the instructions are complete, the Actor tries to guess what action, profession, animal, or scenario they were just acting out.
+
+Then switch roles and play again.
+
+**Example**
+Director: “Squat down.” // “Put your hands on the ground between your legs.” // “Stick your tongue out really fast and then pull it back in.”
+
+Actor guesses: “I’m a frog catching a fly.”
+
+**How it works**
+The Director’s job is to be clear and specific with movements, not to hint verbally at the answer. // The Actor’s job is to fully commit to each instruction and then make a guess.
+
+**Helpful tip**
+If this feels too tricky or frustrating, regular charades is always a great fallback.
+
+**Optional variations**
+* Time the instructions and see how quickly the Actor can guess
+* Use animals, jobs, or everyday activities as prompts
+* Let the Actor guess after each instruction instead of waiting until the end
+
+**Why this game matters**
+Reverse Charades builds communication, listening, and cooperation. // It helps kids practice giving clear directions and following guidance while staying playful and engaged.`,
+  videoUrl: ""
+}
+{
+  number: 72,
+  category: "PHYSICAL GAMES",
+  title: "Be My Arms",
+  text: `**Premise**
+A cooperative physical game where two people work together to become one character.
+
+**How to play**
+One person stands or kneels and places their arms behind their back. // The other person stands behind them and gently slides their arms under the front person’s armpits, becoming their “arms.”
+
+Before starting, make sure everyone is comfortable with positioning and physical boundaries.
+
+Once set, the pair acts together as one character.
+
+**How it works**
+* The person in front is the Voice and Face
+* The person in back is the Arms
+
+If the front person is talking or singing, the Arms try to match the words with expressive gestures. // If the Arms make a bold or unexpected gesture, the front person goes along with it and justifies it out loud.
+
+The goal is shared commitment, not control.
+
+**Example ideas**
+* Sing a song together with big, dramatic arm movements
+* Act out a story or short scene
+* Record a silly birthday message for someone
+* Use props like hats, scarves, or balloons to add chaos
+
+**Optional variations**
+* Switch roles halfway through
+* Perform in slow motion
+* Let the Arms lead while the Voice reacts
+
+**Why this game matters**
+Be My Arms builds trust, communication, and cooperation. // It teaches kids how to stay flexible, respond generously, and work together to make something fun instead of trying to steer it alone.`,
+  videoUrl: ""
+},
+
+{
+  number: 73,
+  category: "PHYSICAL GAMES",
+  title: "Floating Dancer",
+  text: `**Premise**
+A visual illusion game where two people work together to create the appearance of a dancing body with floating legs.
+
+**How to play**
+This game works best with two people.
+
+One person puts an oversized T-shirt on over their head without putting their arms through the sleeves. // They then put pants on their arms and socks and shoes on their hands.
+
+That person kneels down and places their hands on the ground. // The hands now function as the “legs.”
+
+The second person hides behind them and slides their arms through the sleeves of the oversized T-shirt, becoming the upper body and arms.
+
+Once positioned correctly, it looks like one person whose legs are floating in the air.
+
+**Before you start**
+Set up your phone to record before getting situated. // Once you’re in position, it’s tricky to reset!
+
+**How it works**
+The “legs” can:
+* Dance
+* Kick
+* Clap together
+* Do silly tricks
+* Do ridiculously flexible yoga poses and stretches
+
+The “arms” can:
+* Add dramatic flair
+* React to the movement
+* Help sell the illusion
+* Hold onto the “feet” and help them stretch!
+
+Work together to move slowly at first, then build confidence and creativity.
+
+**Optional variations**
+* Add music and choreograph a short routine
+* Perform in slow motion
+
+**Important note**
+This game is not about making fun of bodies. // The humor comes from the illusion, the unrealistic flexibility, and the levitating, impossible movements. // The goal is playful creativity, not imitation or mockery.`,
+  videoUrl: ""
+}
 
 
 ];
