@@ -665,6 +665,242 @@ Player one: “How was your day today?” // Player two flips through the book a
 * Switch books halfway through`,
   videoUrl: ""
 }
+{
+  number: 48,
+  category: "MUSICAL GAMES",
+  title: "One-Word Song",
+  text: `**How to play**
+Make up a song by switching off every word. // One person says or sings a word, then the next person adds the next word, continuing back and forth.
+
+You can clap or snap to keep a beat, try to rhyme, or ignore rhyming altogether.
+
+**Example**
+“I” // “love” // “beans” // “so” // “much” // “don’t” // “you?”
+
+**Ways to make it easier**
+* Switch off every line instead of every word
+* Choose a silly song title ahead of time to give yourselves some direction
+    * “I Love Beans”
+    * “Don’t You Worry ‘Bout That Pimple”
+    * “Goody Goody Gumdrops”
+
+**Warm-up option**
+If making up a song feels like too much pressure, start by rewriting a song you both know well into a simple parody! // This gives you a structure to build from and is a fun creative challenge.
+
+**Optional challenge**
+* Add a steady rhythm or tempo
+* Try different music styles (opera, pop, country)`,
+  videoUrl: ""
+},
+
+{
+  number: 49,
+  category: "MUSICAL GAMES",
+  title: "Build-a-Rap",
+  text: `**How to play**
+First: Establish the rhythm // Everyone starts and continues with the same steady beat: // “Bum-ba-dadum-badum-badum-ba”
+
+This rhythm happens:
+* At the very beginning
+* In between every rhyming line
+* Anytime the group needs to reset or regroup
+
+Next: // One person starts by setting the rhyme. // They say: // “I’m thinking of a word that rhymes with ___,” // and choose a simple one-syllable word that is easy to rhyme with.
+
+Everyone immediately does the rhythm together: // Bum-ba-dadum-badum-badum-ba
+
+Then the next person adds a rhyming line. // After each line, everyone returns to the rhythm before the next person goes.
+
+Players take turns adding new rhymes that match the same sound.
+
+**Example flow**
+Player one: “I’m thinking of a word that rhymes with bee.” // Everyone: Bum-ba-dadum-badum-badum-ba // Player two: “Oops, I fell and scraped my knee.” // Everyone: Bum-ba-dadum-badum-badum-ba // Player three: “And then I really had to pee.” // Everyone: Bum-ba-dadum-badum-badum-ba // Player four: “But look, I found my missing key.” // Everyone: Bum-ba-dadum-badum-badum-ba
+
+**Reminder**
+The goal is simply to keep the rhyme going. // The story does not have to make sense. // Each line just needs to rhyme and fit the rhythm!
+
+**If someone gets stuck**
+If it’s your turn and you can’t think of a rhyme, you can always reset the game by saying: // “I’m thinking of a word that rhymes with ___,” // and choosing a new rhyme.
+
+Everyone then switches to rhyming with that new word and keeps going.
+
+**Optional advanced version**
+At a higher level, the group can try to shout the final rhyming word together, guessing what the speaker is about to say based on context and the rhyme sound. // This is what gives it that “Beastie Boys” feel.
+
+This is fun but completely optional. // The game is just as fun without that aspect!
+
+**Helpful tips**
+* Keep the beat steady and forgiving
+* Silly is perfect; it doesn’t need to make sense or even be a real word
+* Resetting is part of the game, not a failure`,
+  videoUrl: ""
+},
+
+{
+  number: 50,
+  category: "MUSICAL GAMES",
+  title: "Syllable Swap",
+  text: `**How to play**
+Choose a song everyone knows well. // Sing the song together, but trade off every syllable, one at a time, rotating through the players.
+
+Each person only sings their assigned syllable, then immediately passes it to the next player.
+
+**Example**
+If you’re playing with three people and choose We Are Family, it might sound like:
+* Player one: “we”
+* Player two: “are”
+* Player three: “fam”
+* Player one: “i”
+* Player two: “ly”
+
+Then continue through the song the same way.
+
+**Ways to make it easier**
+* Start by swapping every word instead of every syllable
+* Use a slower song
+* Practice one line at a time; don’t try to do the whole song at once
+
+**Optional challenge**
+Try moving your mouth the entire time, even when it’s not your syllable. // This is very tricky and almost always ends in laughter!`,
+  videoUrl: ""
+},
+
+{
+  number: 51,
+  category: "MUSICAL GAMES",
+  title: "Song-on-the-Spot",
+  text: `**How to play**
+Two players sing a song together simultaneously, inventing the lyrics as they go. // One person leads while the other carefully follows, trying to match the words, melody, and timing in real time.
+
+Switch who leads after a verse or whenever it feels right.
+
+**How it works**
+The leader sets the pace and direction. // The follower listens closely and does their best to stay perfectly in sync, even when the song goes in unexpected directions.
+
+The goal is not to sound good, but to stay together.
+
+**Helpful way to start**
+Come up with a made-up song title before you begin. // This gives the song a shared direction right away.
+
+**Example starters**
+* “Our New Favorite Donut Shop”
+* “The Day Everything Went Wrong”
+* “Why Is This Happening to Us?”
+
+**Ways to play with more people**
+* One person can act as an interviewer, introducing the duo and asking questions about their “new album”
+* The duo responds by breaking into another song together on the spot
+
+**Optional additions**
+* Add clapping, snapping, or body percussion
+* Use big gestures or dramatic expressions
+* Change styles halfway through`,
+  videoUrl: ""
+},
+
+{
+  number: 52,
+  category: "MUSICAL GAMES",
+  title: "Bawk That Tune",
+  text: `**How to play**
+Choose a familiar song. // One person “sings” the song using only chicken bawking sounds, following the melody and rhythm as closely as possible. // The other players listen and try to guess which song it is.
+
+Then switch roles and try again.
+
+**Fun variations**
+* “Baa” that tune
+* “Moo” that tune
+* “Croak” that tune
+* “Yawn” that tune
+* “Burp” that tune
+* Or invent your own sound, like “Blub that tune!”`,
+  videoUrl: ""
+},
+
+{
+  number: 53,
+  category: "MUSICAL GAMES",
+  title: "The Jingle Game",
+  text: `**How to play**
+Pick a random item nearby. // One person holds it up and sings a short opening line naming the “product.” // The next person immediately finishes the jingle with any line that comes to mind.
+
+Then switch roles or choose a new item and start again. // There is no right melody, no required rhyme, and no correct answer. // The only goal is to respond quickly without overthinking!
+
+**Example**
+Player one holds up a bar of soap and sings, “Bar of soap!” // Player two responds, “The cleanest armpits you’ll ever smell!”
+
+**Helpful tip before playing**
+It can help to briefly remind kids what jingles are before you start. // Listening to or recalling familiar ones gives everyone a sense of the vibe.
+
+Examples include:
+* “Like a good neighbor, State Farm is there”
+* “Ba da ba ba ba, I’m lovin’ it” (McDonald's)
+* “We are farmers… bum buh dum dum bum dum dum” (Farmers Insurance)
+
+There is no required structure, but it often helps to think of a jingle as:
+* Singing the product name
+* Saying what it does
+* Or why it’s great
+
+That framework can make it easier to jump in.
+
+**Ways to play anywhere**
+* At home with random household items
+* In the car by making jingles for billboards or businesses you pass
+* At the store by quietly inventing jingles as you shop together - hand each other random items and challenge each other to come up with a jingle on the spot!`,
+  videoUrl: ""
+},
+
+{
+  number: 54,
+  category: "MUSICAL GAMES",
+  title: "5, 6, 7, 8!",
+  text: `**How to play**
+One player claps out a steady beat and calls out, “5, 6, 7, 8!” // The other player immediately begins an improvised dance while the first player counts the beats out loud.
+
+Dance for two full 8-counts, then finish with a strong pose.
+
+Switch roles and repeat.
+
+**Ways to adjust**
+* Do one 8-count instead of two… or more!
+* Dance very slowly or very fast
+* Add themed dances like robot, ballerina, dinosaur, or sleepy sloth
+
+**Optional challenge**
+* Add some upbeat music instead of clapping
+* Freeze dramatically between 8-counts
+* Have the counter call out style changes mid-dance
+* Surprise each other at random moments throughout the day by saying, [other person’s name!] 5, 6, 7, 8 and challenging them to drop everything and do a quick dance!`,
+  videoUrl: ""
+},
+
+{
+  number: 55,
+  category: "MUSICAL GAMES",
+  title: "Fake “Dance Trend”",
+  text: `**How to play**
+One person pretends they’ve discovered a cool new dance trend. // They give the dance a name and then teach it step by step, explaining the moves out loud.
+
+Once everyone knows the steps, play music or sing a song together and do the dance as a group.
+
+Then switch leaders and invent a new trend.
+
+**Example**
+Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many Donuts.” // They then teach the moves:
+* Put one hand on your belly
+* Put the other hand on your belly
+* Bend over and say “ouch”
+* Sit down and roll on the floor
+
+Everyone performs the dance together.
+
+* Let someone else add a new move halfway through
+* Speed the dance up or slow it way down
+* Change the music style mid-dance
+* Perform the dance like it’s going viral online`,
+  videoUrl: ""
+}
 
 
 ];
