@@ -1563,7 +1563,7 @@ function renderMenu() {
   // Click handler for all game buttons
 let openGameNumber = null;
 
-menu.addEventListener("click", function (e) {
+els.menu.addEventListener("click", function (e) {
   const btn = e.target.closest("[data-game]");
   if (!btn) return;
 
