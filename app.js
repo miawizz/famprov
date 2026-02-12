@@ -1669,7 +1669,7 @@ menu.addEventListener("click", function (e) {
   showGameByNumber(n);
 });
 
-}
+
 function renderVariations(variations) {
   const wrap = document.getElementById("gameVariations");
   if (!wrap) return;
