@@ -901,6 +901,145 @@ Everyone performs the dance together.
 * Perform the dance like it’s going viral online`,
   videoUrl: ""
 }
+{
+  number: 56,
+  category: "CREATIVITY CHALLENGES",
+  title: "Fake Definitions",
+  text: `**How to play**
+One person invents a silly-sounding fake word. // Everyone else takes turns pretending they know exactly what it means, explaining the definition and using the word in a sentence.
+
+There are no wrong answers. // Each explanation is treated as equally valid.
+
+Then choose a new word and repeat.
+
+**Example**
+Player one: “The next word is scooperdinkle.” // Player two: “A scooperdinkle is a measurement you use when you’re cooking without a recipe. It’s a small amount you just scoop because it feels right. You might say, ‘I added a scooperdinkle of sugar.’” // Player three: “I thought a scooperdinkle is a tiny shovel used to dig for special gems in the dirt. Like, ‘Jimmy used his new scooperdinkle and found a rare rock in the backyard.’”
+
+**If you feel stuck**
+* Listen for any part of the word that sounds like a real word and go with the first thing it reminds you of
+* Go off vibes. What does the word feel like? Is it heavy, tiny, fancy, sticky, serious, silly
+* Invent a backstory for where the word came from or who first used it
+
+Remember, there are absolutely no wrong answers!`,
+  videoUrl: ""
+},
+
+{
+  number: 57,
+  category: "CREATIVITY CHALLENGES",
+  title: "Fake Band Names",
+  text: `**How to play**
+Take turns quickly calling out fake band names. // Do not pause to think. // Say whatever pops into your head and keep the momentum going.
+
+The only goal is speed and silliness. // The weirder the better!
+
+**Example**
+One player calls out a name like “Flat Pumpkin.” // The next responds with something like “Angry Duck Crossing” // Another adds “Diaper Blowout.”
+
+**Optional variations**
+* Make up the band’s hit song or album title
+* Decide what kind of music they play
+* Add a dramatic band introduction voice
+
+**Optional challenge**
+* Set a timer and see how many names you can come up with
+* Use food words, animals, or household objects as inspiration`,
+  videoUrl: ""
+},
+
+{
+  number: 58,
+  category: "CREATIVITY CHALLENGES",
+  title: "Fake Slang",
+  text: `**How to play**
+One person uses a made-up word naturally in a sentence, even though it does not actually exist. // The other person responds by saying, “You mean…” and guesses what they think the word means.
+
+The original speaker must then go along with that interpretation.
+
+Then switch roles and repeat with a new fake slang word!
+
+**Example**
+Player one: “Yesterday I was at the park and I totally barked.” // Player two: “You mean you saw a dog you connected with so deeply it felt like you were speaking its language?” // Player one: “Yes, and the owner even let me pet him.”`,
+  videoUrl: ""
+},
+
+{
+  number: 59,
+  category: "CREATIVITY CHALLENGES",
+  title: "Movie Critic (or Book Review)",
+  text: `**How to play**
+One person comes up with a fake movie or book title. // The other person immediately jumps in as the critic, briefly describing the plot and or cast, then giving a review explaining whether they liked it or not.
+
+After one review, switch roles and invent a new title.
+
+**Example**
+Player one: “Give us your review of the new movie Snail Island.” // Player two: “Oh, Snail Island is going to be such a hit. I wouldn’t be surprised if it wins Best Picture! It’s a stop-motion film made entirely out of play-dough and it follows a snail named Snarley as he sails across the ocean, which is actually just a puddle, but it takes him forever to cross because he’s so slow. When he finally arrives, the island is full of snails and the drama unfolds very, very slowly. Jack Black voices the main snail.”
+
+**Optional things to add in:**
+* Add a star rating
+* Include surprising casting choices
+* Review a sequel, prequel, or reboot
+* Switch between loving it and totally hating it`,
+  videoUrl: ""
+},
+
+{
+  number: 60,
+  category: "CREATIVITY CHALLENGES",
+  title: "Magic Spells",
+  text: `**How to play**
+One person starts a spell by saying a rhythmic, made-up phrase. // The other person finishes the spell with a line that explains what the magic does.
+
+**Example**
+Player one: “Hippity-hoppity-boopity-bear…” // Player two: “Make me have clean underwear!”`,
+  videoUrl: ""
+},
+
+{
+  number: 61,
+  category: "CREATIVITY CHALLENGES",
+  title: "Mystery Guest",
+  text: `**How to play**
+One or two players act as the Interviewers. // They secretly choose an identity for the Mystery Guest. // This can be a celebrity, a fictional character, someone everyone knows, or even something generic like an animal or object.
+
+The Mystery Guest either leaves the room or covers their ears and looks away while the identity is chosen.
+
+Once ready, the guest returns and is welcomed onto the “talk show.” // The Interviewers ask questions and give playful clues to help the guest figure out who they are, while the guest plays along and makes guesses.
+
+**Example (the secret identity is: a dragon)**
+Interviewer: “Welcome to the show. Before we bring out our next guest, please check under your seat for a fireproof poncho, just in case.” // Interviewer: “So tell us, is it true you can fly, or are your wings just for decoration?” // Interviewer: “And should we be worried if you breathe a little too hard?”
+
+The guest listens, plays along, and starts guessing based on the clues, eventually realizing they are a dragon!
+
+**Helpful tips:**
+- If the guest is having trouble guessing, make the clues more and more obvious as you go. The fun comes from the reveal, not from keeping it a secret!
+* Let the guest ask yes-or-no questions
+* Choose very simple identities for younger players`,
+  videoUrl: ""
+},
+
+{
+  number: 62,
+  category: "CREATIVITY CHALLENGES",
+  title: "Interrogation",
+  text: `**How to play**
+One person is the Criminal. // One or more other players are the Interrogators.
+
+While the Criminal looks away or leaves the room, the Interrogators secretly decide:
+* What happened
+* Where it happened
+* Who it happened with
+
+Keep everything light, silly, and clearly imaginary.
+
+Once decided, the Criminal enters the “interrogation room.” // The Interrogators give clues to help the Criminal guess each part of the crime.
+
+**Example**
+The secret crime is: tooting at the playground with Buzz Lightyear.
+
+Interrogator: “Let’s start with what you did. We’re all still recovering from the smell.” // Criminal guesses: “I tooted?” // Interrogator: “Exactly. But where you did it made it even worse. Didn’t you think about all those poor kids just trying to enjoy the swings?” // Criminal guesses: “The playground?” // Interrogator: “Yes. And we cannot believe who you did this with. You really took this crime to the next level… to infinity and beyond.” // Criminal guesses: “Buzz Lightyear!”`,
+  videoUrl: ""
+}
 
 
 ];
