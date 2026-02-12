@@ -1632,12 +1632,11 @@ function renderMenu() {
     const games = gamesForCategory(GAMES, cat);
 
     const items = games.map((g) => {
-      return `
-        <button class="menu-item" type="button" data-game="${g.number}">
-          <span class="menu-item__num">${g.number}</span>
-          <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
-        </button>
-      `;
+return `
+  <button class="menu-item" type="button" data-game="${g.number}">
+    <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
+  </button>
+`;
     }).join("");
 
     return `
