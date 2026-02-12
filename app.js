@@ -1640,20 +1640,10 @@ function showGameByNumber(number) {
 }
 
 function init() {
-  populateCategories();
-
-  els.categorySelect.addEventListener("change", function () {
-    const cat = els.categorySelect.value;
-    els.gameCard.classList.add("hidden");
-    els.gameSelect.disabled = true;
-    els.gameSelect.innerHTML = `<option value="" selected disabled>Select a game</option>`;
-    if (cat) populateGamesDropdown(cat);
-  });
-
-  els.gameSelect.addEventListener("change", function () {
-    const n = els.gameSelect.value;
-    if (n) showGameByNumber(n);
-  });
+  // We are switching from dropdowns to collapsible menu
+  // So we are not wiring categorySelect/gameSelect anymore
+  renderMenu();
 }
 
 init();
+
