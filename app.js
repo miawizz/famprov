@@ -1535,7 +1535,7 @@ function escapeHTML(str) {
     <div class="variation-header"><strong>Variations</strong></div>
     ${blocks.join("")}
   `;
-}
+
 
 
 function renderTextPreserveLines(text) {
