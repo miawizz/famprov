@@ -561,11 +561,7 @@ details[open] .install-help__summary .caret{ transform: rotate(180deg); }
 .menu-item__num {
   display: none;
 }
-#menu {
-  background: #F6F1E8;
-  padding: 20px;
-  border-radius: 24px;
-}
+
 
 
 
