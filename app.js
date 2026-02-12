@@ -1529,15 +1529,6 @@ function escapeHTML(str) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
-
-
-  wrap.innerHTML = `
-    <div class="variation-header"><strong>Variations</strong></div>
-    ${blocks.join("")}
-  `;
-
-
-
 function renderTextPreserveLines(text) {
   if (!text) {
     els.gameText.innerHTML = "";
