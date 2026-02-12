@@ -1579,7 +1579,7 @@ function renderMenu() {
       // Build the same formatted HTML you use in the card
       let formatted = (g.text || "");
       formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-      formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+      formatted = formatted.replace(/\/\/\s*/g, "<br>");
       formatted = formatted.replace(/\n/g, "<br>");
 
       const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
