@@ -44,6 +44,13 @@ body{
   border-bottom: 1px solid rgba(0,0,0,0.06);
 }
 
+:root{
+  --teal: #0E6F74;
+  --teal-dark: #084e51;
+  --cream: #F6EBD2;
+}
+
+
 .app-logo{
   width: 100%;
   max-width: 720px;
