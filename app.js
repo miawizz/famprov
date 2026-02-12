@@ -1504,8 +1504,7 @@ The fun comes from commitment. // The hack should be overly specific, dramatical
 
 
 const els = {
-  categorySelect: document.getElementById("categorySelect"),
-  gameSelect: document.getElementById("gameSelect"),
+  menu: document.getElementById("menu"),
   gameCard: document.getElementById("gameCard"),
   gamePill: document.getElementById("gamePill"),
   gameTitle: document.getElementById("gameTitle"),
