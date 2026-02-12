@@ -1300,6 +1300,192 @@ Work together to move slowly at first, then build confidence and creativity.
 This game is not about making fun of bodies. // The humor comes from the illusion, the unrealistic flexibility, and the levitating, impossible movements. // The goal is playful creativity, not imitation or mockery.`,
   videoUrl: ""
 }
+{
+  number: 74,
+  category: "PROPS GAMES",
+  title: "Props",
+  text: `**Premise**
+A creative imagination game where everyday objects become something completely new.
+
+**How to play**
+Grab a random item nearby. // One person starts by acting out a silly, unexpected purpose or meaning for the object, using movement, expression, and a short line of dialogue if they want.
+
+After a brief moment, switch players or choose a new prop and repeat.
+
+**Example**
+Someone holds a paper towel roll up to their forehead and says, “I can’t believe my unicorn horn grew overnight after just one use of the new magic unicorn lotion!”
+
+**How it works**
+The object is never what it actually is. // It becomes whatever the player imagines it to be. // Commitment matters more than cleverness.
+
+**Optional variations**
+* Pass the same prop around and let each person reinterpret it differently
+* Act without words and let others guess what it is
+* Use multiple props at once to build a bigger idea
+
+**Helpful tip**
+If you feel stuck, look at the shape, size, or texture of the object and let that guide your imagination.
+
+**Clean-up tip**
+Make up a “rule” that you can only pull out one prop at a time and put the first one back before you pull out the next one.
+
+**Why this game matters**
+Props encourages flexible thinking, creativity, and confidence. // It teaches kids to see possibilities everywhere and reinforces the improv idea that anything can become something new with imagination.`,
+  videoUrl: ""
+},
+
+{
+  number: 75,
+  category: "PROPS GAMES",
+  title: "Shark Tank or Infomercial",
+  text: `**Premise**
+A creative pitch game where everyday objects are reinvented as something completely new.
+
+**How to play**
+Find a random object and assign it a brand-new purpose that is not its real use. // The more unexpected, the better.
+
+Once the object has a new identity, choose one of two ways to play.
+
+**Option 1: Infomercial**
+One person acts as the Presenter and dramatically sells the invention.
+
+Include:
+* What it is
+* What problem it solves
+* Why it’s amazing
+
+You can add:
+* A slogan
+* A jingle
+* A limited-time deal
+
+**Example**
+A blanket becomes a luxury wig that keeps your head warm in extreme weather. // “Are you tired of cold ears. Try the Cozy Crown today.”
+
+**Option 2: Shark Tank**
+One person pitches the invention. // The other player or players act as Investors and ask questions to decide whether they’re “in” or “out.”
+
+Investors might ask:
+* How does it work
+* Who is it for
+* Why hasn’t anyone thought of this before
+
+The pitcher answers confidently and creatively, making everything sound intentional and impressive.
+
+**Example**
+A watch becomes a time-travel device that only goes five minutes into the past.
+
+**How it works**
+This is about commitment, not realism. // The presenter treats the invention as groundbreaking. // The investors respond seriously, even when the idea is ridiculous.
+
+**Optional variations**
+* Switch roles halfway through
+* Add a timer for the pitch
+* Combine both versions by pitching first, then making a commercial
+
+**Why this game matters**
+Shark Tank or Infomercial builds creativity, confidence, and persuasive storytelling. // It encourages kids to expand ideas, respond to questions on the fly, and support imaginative thinking without judgment.`,
+  videoUrl: ""
+},
+
+{
+  number: 76,
+  category: "PROPS GAMES",
+  title: "20-Second Costume",
+  text: `**Premise**
+A fast-paced creativity game where players build a costume out of random items in just 20 seconds.
+
+**How to play**
+Set a timer for 20 seconds. // When the timer starts, everyone rushes to grab nearby items and throws together a costume on the spot. // Anything goes.
+
+When time is up, freeze.
+
+Take turns either:
+* Proudly explaining your costume, or
+* Delivering a line fully in character while the others react to you as that character
+
+**Example ideas**
+* A throw-blanket toga
+* A paper towel roll as a rhino horn
+* A coffee mug as a grumpy office worker
+* A scarf cape superhero
+
+**How it works**
+The costume does not need to be wearable, logical, or secure. // The fun comes from speed, improvisation, and commitment.
+
+**Helpful tip for cleanup**
+Reset the timer for 30 seconds afterward.
+* First 10 seconds: everyone puts items back where they belong
+* Remaining time: reset and get ready for the next round
+
+This keeps the game fun without leaving a mess behind.
+
+**Optional variations**
+* Add a theme like superheroes, animals, or jobs
+* Have everyone strike a pose instead of speaking
+* Interview each character briefly`,
+  videoUrl: ""
+},
+
+{
+  number: 77,
+  category: "PROPS GAMES",
+  title: "Unboxing Video",
+  text: `**Premise**
+A pretend influencer game where players dramatically “unbox” ordinary objects as if they are incredible.
+
+**How to play**
+One person secretly fills a box with random, everyday items. // They hand the box to the other player, who pretends they are filming an unboxing video.
+
+The unboxer opens the box one item at a time and reacts with over-the-top excitement, describing each object as if it is impressive, luxurious, or groundbreaking.
+
+After a few items, switch roles and play again.
+
+**Example**
+The unboxer pulls out a pencil and says, “Look at this. It’s solid wood. This thing is definitely not snapping in half during homework. You can just feel the quality.”
+
+**How it works**
+The object itself does not matter. // The enthusiasm does. // Treat every item like it’s the best thing you’ve ever seen.
+
+**Optional variations**
+* Add a fake brand name or backstory
+* Give each item a rating
+* Pretend the audience is asking questions
+* Film it and watch it back together`,
+  videoUrl: ""
+},
+
+{
+  number: 78,
+  category: "PROPS GAMES",
+  title: "Fake Hacks",
+  text: `**Premise**
+A parody game where players invent ridiculous, unnecessary “life hacks” for everyday tasks.
+
+**How to play**
+One person grabs an everyday object and confidently explains a totally fake “hack” for how it’s actually supposed to be used.
+
+The explanation should sound serious and convincing, even though the method is clearly absurd.
+
+After the demonstration, switch players or objects and try a new hack.
+
+**Example**
+“Oh, you think you’re supposed to brush your teeth like this, but you’ve actually been brushing them all wrong. You’re supposed to hold the toothbrush completely still and jiggle your head back and forth so the weight of your head does all the work.”
+
+**How it works**
+The fun comes from commitment. // The hack should be overly specific, dramatically confident, and completely unnecessary.
+
+**Ways to play**
+* Use objects around the house like a TV remote, coffee mug, book, or shoe
+* Pretend you’re filming a viral tutorial video
+* Add phrases like “most people don’t know this” or “dentists hate this trick”
+
+**Optional variations**
+* Have another player react as a shocked viewer
+* Rate the hack on how “life-changing” it is
+* Chain hacks together into a full fake tutorial`,
+  videoUrl: ""
+}
 
 
 ];
