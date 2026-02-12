@@ -498,4 +498,67 @@ details[open] .install-help__summary .caret{ transform: rotate(180deg); }
 #dropdownWrapper {
   display: none;
 }
+/* =========================
+   CATEGORY STYLING
+========================= */
+
+.menu-cat__summary {
+  font-size: 1.25rem;
+  font-weight: 800;
+  background: #0E6F74;      /* dark teal */
+  color: #F6F1E8;           /* cream */
+  padding: 14px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin-bottom: 12px;
+  list-style: none;
+}
+
+.menu-cat__summary::-webkit-details-marker {
+  display: none;
+}
+
+/* =========================
+   GAME BUTTON STYLING
+========================= */
+
+.menu-cat__items {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+
+  width: 100%;
+  padding: 16px 18px;
+
+  font-size: 1.05rem;
+  font-weight: 600;
+
+  background: #0E6F74;
+  color: #F6F1E8;
+
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+
+  transition: transform 0.15s ease, opacity 0.15s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+/* Remove game numbers */
+.menu-item__num {
+  display: none;
+}
+
 
