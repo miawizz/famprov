@@ -1702,10 +1702,6 @@ function showGameByNumber(number) {
 
    renderVariations(g.variations || []);
 
-  // Scroll into view on mobile
-  els.gameCard.scrollIntoView({ behavior: "smooth", block: "start" });
-}
-
 function init() {
   // We are switching from dropdowns to collapsible menu
   // So we are not wiring categorySelect/gameSelect anymore
