@@ -1529,28 +1529,7 @@ function escapeHTML(str) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
-function renderVariations(variations) {
-  const wrap = document.getElementById("gameVariations");
-  if (!wrap) return;
 
-  if (!variations || !variations.length) {
-    wrap.innerHTML = "";
-    return;
-  }
-
-  const blocks = variations.map((v) => {
-    let formatted = (v.text || "");
-    formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-    formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
-    formatted = formatted.replace(/\n/g, "<br>");
-
-    return `
-      <details class="variation">
-<summary>${v.label}. ${v.title}</summary>
-        <div class="variation-body">${formatted}</div>
-      </details>
-    `;
-  });
 
   wrap.innerHTML = `
     <div class="variation-header"><strong>Variations</strong></div>
@@ -1645,6 +1624,34 @@ menu.addEventListener("click", function (e) {
   showGameByNumber(n);
 });
 
+}
+function renderVariations(variations) {
+  const wrap = document.getElementById("gameVariations");
+  if (!wrap) return;
+
+  if (!variations || !variations.length) {
+    wrap.innerHTML = "";
+    return;
+  }
+
+  const blocks = variations.map((v) => {
+    let formatted = (v.text || "");
+    formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+    formatted = formatted.replace(/\n/g, "<br>");
+
+    return `
+      <details class="variation">
+        <summary>${v.label}. ${v.title}</summary>
+        <div class="variation-body">${formatted}</div>
+      </details>
+    `;
+  });
+
+  wrap.innerHTML = `
+    <div class="variation-header"><strong>Variations</strong></div>
+    ${blocks.join("")}
+  `;
 }
 
 function showGameByNumber(number) {
