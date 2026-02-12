@@ -1529,14 +1529,7 @@ function escapeHTML(str) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
-
-function renderTextPreserveLines(text) {
-  if (!text) {
-    els.gameText.innerHTML = "";
-    return;
-  }
-
-   function renderVariations(variations) {
+function renderVariations(variations) {
   const wrap = document.getElementById("gameVariations");
   if (!wrap) return;
 
@@ -1565,6 +1558,14 @@ function renderTextPreserveLines(text) {
   `;
 }
 
+
+function renderTextPreserveLines(text) {
+  if (!text) {
+    els.gameText.innerHTML = "";
+    return;
+  }
+
+   
 
   // Convert **bold**
   let formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
@@ -1595,33 +1596,6 @@ function setVideo(url) {
   try { els.gameVideo.load(); } catch (e) {}
 }
 
-function populateCategories() {
-  const cats = uniqueCategories(GAMES);
-
-  // Reset
-  els.categorySelect.innerHTML = `<option value="" selected disabled>Select a category</option>`;
-
-  cats.forEach((cat) => {
-    const opt = document.createElement("option");
-    opt.value = cat;
-    opt.textContent = cat;
-    els.categorySelect.appendChild(opt);
-  });
-}
-
-function populateGamesDropdown(category) {
-  const list = gamesForCategory(GAMES, category);
-
-  els.gameSelect.disabled = false;
-  els.gameSelect.innerHTML = `<option value="" selected disabled>Select a game</option>`;
-
-  list.forEach((g, idx) => {
-    const opt = document.createElement("option");
-    opt.value = String(g.number);
-    opt.textContent = g.title;
-    els.gameSelect.appendChild(opt);
-  });
-}
 function renderMenu() {
   const menu = document.getElementById("menu");
   if (!menu) return;
