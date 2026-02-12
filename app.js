@@ -153,6 +153,218 @@ If you start feeling stuck, reset and begin again with a brand-new word. // In i
   videoUrl: ""
 }
 
+   {
+  number: 15,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Magic Mirror (No Sound)",
+  text: `**How to play**
+Choose one player to be the leader. // The leader slowly changes their facial expression, moving into big, dramatic faces. // The other player or players act as a mirror, copying the face in real time as closely as possible.
+
+**Example**
+The leader slowly raises their eyebrows, squints their eyes, and twists their mouth into an exaggerated shape. // The mirror players follow along, matching the expression as it shifts.
+
+**Optional challenge**
+Add slow hand gestures or gentle body movements while keeping the same pace.`,
+  videoUrl: ""
+},
+
+{
+  number: 16,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Magic Mirror (With Sound)",
+  text: `**How to play**
+Play this the same way as Magic Mirror (No Sound), but include sound. // The leader begins making a sound while slowly changing their facial expression. // The mirror players copy both the face and the sound in real time, continuing to match it as it changes.
+
+**Example**
+The leader starts with a low humming sound that slowly turns into a high squeak. // The mirror players adjust their voices and expressions to stay in sync.
+
+**Optional challenge**
+Experiment with volume, pitch, or rhythm changes while staying as perfectly mirrored as possible.`,
+  videoUrl: ""
+},
+
+{
+  number: 17,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Opposite Emotions",
+  text: `**How to play**
+Give a prompt where players must make the facial expression of one emotion while using the voice or sound of the opposite emotion. // Players take turns responding to prompts or inventing their own.
+
+**Example**
+“Make the face of someone who is really happy, but the sound of someone who is really sad.”
+
+**How it looks**
+A giant beaming smile paired with dramatic sobbing, or a frown paired with cheerful giggles.
+
+**More examples to get you started**
+
+Opposing emotions
+* Angry face, calm and peaceful voice
+* Scared face, brave superhero voice
+* Excited face, bored and monotone voice
+* Sad face, joyful singing voice
+* Proud face, embarrassed whisper
+* Frustrated face, relaxed sigh
+* Sleepy face, hyper and energetic voice
+* Nervous face, cool and confident voice
+
+Silly or specific scenarios
+* Face of someone who just stepped in dog poop, sound of someone who won the lottery
+* Face of someone who lost their favorite teddy bear, sound of someone about to eat ice cream
+* Face of someone who dropped their donut, sound of someone laughing at a joke
+* Face of someone stuck in traffic, sound of someone relaxing on vacation
+* Face of someone who just got splashed with muddy water, sound of someone dancing at a party
+* Face of someone waiting in line, sound of someone running around playing at a party`,
+  videoUrl: ""
+},
+
+{
+  number: 18,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Be My Voice",
+  text: `**How to play**
+One player is the Voice, and one player is the Face. // The Voice talks out loud, while the Face silently lip-syncs in real time, matching mouth movements and facial expressions as closely as possible so it looks like the voice belongs to them.
+
+Switch roles after each round.
+
+**Example**
+The Voice says, “Let me tell you about my favorite thing to do on a rainy day…” while the Face mouths the words and exaggerates expressions to match the tone.
+
+**Optional variations**
+* Set up a camera so the Voice is off-screen. When you watch it back, it looks like the person lip syncing is actually talking.
+* Use prompts such as:
+    * “Here’s my most embarrassing story…”
+    * “This is the craziest thing that ever happened to me…”
+    * “Let me explain how I became a superhero.”
+
+**Optional challenge**
+Have the Voice change speed, emotion, or volume without warning and see if the Face can keep up!`,
+  videoUrl: ""
+},
+
+{
+  number: 19,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "I Make the Face, You Make the Sound",
+  text: `**How to play**
+One player makes a silent facial expression while the other player creates the sound they think matches that face.
+
+**Ways to play**
+* Real-time: One player makes the face while the other makes the sound at the same time.
+* Two-step: The face is shown once silently. Then it is repeated while the other player adds the sound. This version allows for more accuracy, but either way is fun!
+
+**Example**
+One player freezes in a shocked, wide-eyed face. // The other responds with a dramatic gasp or high-pitched squeal.`,
+  videoUrl: ""
+},
+
+{
+  number: 20,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "I Make the Sound, You Make the Face",
+  text: `**How to play**
+One player makes a sound effect, and the other player creates a facial expression that matches it.
+
+**Ways to play**
+* Real-time: The sound and face happen at the same time.
+* Two-step: The sound is made once with minimal facial expression, then repeated while the other player performs a dramatic matching face.
+
+**Example**
+One player makes a slow, creaky door sound. // The other responds with a strained, squeaky facial expression.
+
+**Optional challenge**
+Limit the sound-maker’s facial movement to increase the difficulty, or layer multiple sounds in a row!`,
+  videoUrl: ""
+},
+
+{
+  number: 21,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Guess the Emoji",
+  text: `**What you need**
+* A device with emojis available, or
+* Emoji chart
+
+Simple facial expression emojis work best, but more obscure emojis can be used for an extra challenge!
+
+**How to play — Simple version**
+Take turns secretly choosing an emoji. // Act it out using only your face while the other player guesses which emoji you’re portraying.
+
+**Example**
+One player secretly chooses 😲 and acts out wide eyes and an open mouth. // The other player guesses 😲.
+
+**How to play — Two-device challenge**
+One player secretly chooses three emojis and acts them out one at a time. // The other player writes down or remembers the emojis they think are being performed. // Compare lists at the end to see how many matched.
+
+**Example**
+Player one acts out 😡 → 🤔 → 😂 // Player two guesses 😡 → 😐 → 😂 // Then you compare which ones matched.
+
+**How to play — Printable chart version**
+Using the emoji chart, one player secretly picks an emoji in their head and acts it out. // The other player points to the emoji on the chart they think is being replicated. // Then switch roles.
+
+**Example**
+One player acts out 😜. // The other player points to 😜 on the chart.
+
+**Optional challenge**
+* Use less obvious emojis like 🤯, 🥴, or 😬
+* Limit yourself to only facial movement with no sound
+* Make the sound you think that emoji would be making
+* Exaggerate expressions as much as possible`,
+  videoUrl: ""
+},
+
+{
+  number: 22,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Read My Lips",
+  text: `**How to play**
+One player silently mouths a familiar song lyric or sentence while the other player tries to guess what is being said by watching their lips, facial expressions, and gestures. // No sound allowed.
+
+Switch roles after each turn.
+
+**Example**
+One player silently mouths the words to “Row, row, row your boat” while exaggerating mouth movements and facial expressions. // The other player guesses the song.
+
+**Ways to adjust the challenge**
+* Easier: Use well-known songs, rhymes, or short phrases.
+    * “Row, row, row your boat”
+    * “Happy birthday”
+* Harder: Use longer or sillier sentences.
+    * “Have you ever tried eating ketchup on your ice cream?”
+    * “The chicken wore sunglasses to the beach.”
+
+**Optional challenge**
+Add big gestures or dramatic facial expressions to help communicate, or limit gestures entirely to make it trickier.`,
+  videoUrl: ""
+},
+
+{
+  number: 23,
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Face Filters or Magic Towel",
+  text: `**How to play: Magic Towel version**
+Hold a towel, blanket, or piece of fabric in front of your face. // While your face is covered, quickly change your facial expression. // Lower the towel to reveal the new face as if it appeared by magic.
+
+**Example**
+You hide your face behind the towel, then lower it to reveal an over-the-top shocked face or a silly grin. // Then, raise the towel back up and when it’s in front of your face again, you change it to a sad face, then lower it.
+
+**Optional challenge**
+Speed it up so the expression appears to change instantly behind the towel, like a magic trick.
+
+**How to play: Face Filters version**
+Instead of a towel, swipe your hand in front of your face (or have someone else swipe their hand). // Each swipe “changes the filter,” meaning you instantly switch to a new facial expression.
+
+**Example**
+A hand swipes across your face and you suddenly switch from a sleepy face to an excited one.
+
+**Optional variations**
+* Add imaginary “filters” such as birds flying over your head, fire breathing, sparkles, or slow-motion effects
+* Include sound effects or body movement to match each new face
+* Take turns being the one who swipes and the one who changes faces`,
+  videoUrl: ""
+}
+
+
 ];
 
 
