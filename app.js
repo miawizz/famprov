@@ -179,10 +179,23 @@ function escapeHTML(str) {
 }
 
 function renderTextPreserveLines(text) {
-  // We keep line breaks exactly as stored.
-  // Using pre-wrap in CSS, so we can just set textContent.
-  els.gameText.textContent = text || "";
+  if (!text) {
+    els.gameText.innerHTML = "";
+    return;
+  }
+
+  // Convert **bold**
+  let formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+  // Convert // into line breaks
+  formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+
+  // Preserve existing line breaks
+  formatted = formatted.replace(/\n/g, "<br>");
+
+  els.gameText.innerHTML = formatted;
 }
+
 
 function setVideo(url) {
   const hasUrl = Boolean(url && String(url).trim().length);
