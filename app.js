@@ -155,7 +155,6 @@ const els = {
   gameSelect: document.getElementById("gameSelect"),
   gameCard: document.getElementById("gameCard"),
   gamePill: document.getElementById("gamePill"),
-  gameNumber: document.getElementById("gameNumber"),
   gameTitle: document.getElementById("gameTitle"),
   gameText: document.getElementById("gameText"),
   gameVideo: document.getElementById("gameVideo"),
