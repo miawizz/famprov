@@ -235,7 +235,6 @@ function showGameByNumber(number) {
 
   els.gameCard.classList.remove("hidden");
   els.gamePill.textContent = g.category || "";
-  els.gameNumber.textContent = `#${g.number}`;
   els.gameTitle.textContent = g.title || "";
   renderTextPreserveLines(g.text || "");
   setVideo(g.videoUrl || "");
