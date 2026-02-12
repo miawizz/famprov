@@ -1622,6 +1622,44 @@ function populateGamesDropdown(category) {
     els.gameSelect.appendChild(opt);
   });
 }
+function renderMenu() {
+  const menu = document.getElementById("menu");
+  if (!menu) return;
+
+  const cats = uniqueCategories(GAMES);
+
+  const html = cats.map((cat) => {
+    const games = gamesForCategory(GAMES, cat);
+
+    const items = games.map((g) => {
+      return `
+        <button class="menu-item" type="button" data-game="${g.number}">
+          <span class="menu-item__num">${g.number}</span>
+          <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
+        </button>
+      `;
+    }).join("");
+
+    return `
+      <details class="menu-cat">
+        <summary class="menu-cat__summary">${escapeHTML(cat)}</summary>
+        <div class="menu-cat__items">
+          ${items}
+        </div>
+      </details>
+    `;
+  }).join("");
+
+  menu.innerHTML = html;
+
+  // Click handler for all game buttons
+  menu.addEventListener("click", function (e) {
+    const btn = e.target.closest("[data-game]");
+    if (!btn) return;
+    const n = btn.getAttribute("data-game");
+    if (n) showGameByNumber(n);
+  });
+}
 
 function showGameByNumber(number) {
   const g = GAMES.find(x => String(x.number) === String(number));
