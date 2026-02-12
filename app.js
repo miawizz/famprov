@@ -1652,12 +1652,25 @@ return `
   menu.innerHTML = html;
 
   // Click handler for all game buttons
-  menu.addEventListener("click", function (e) {
-    const btn = e.target.closest("[data-game]");
-    if (!btn) return;
-    const n = btn.getAttribute("data-game");
-    if (n) showGameByNumber(n);
-  });
+let openGameNumber = null;
+
+menu.addEventListener("click", function (e) {
+  const btn = e.target.closest("[data-game]");
+  if (!btn) return;
+
+  const n = btn.getAttribute("data-game");
+
+  // If you tap the same game again, collapse it
+  if (openGameNumber === n) {
+    els.gameCard.classList.add("hidden");
+    openGameNumber = null;
+    return;
+  }
+
+  openGameNumber = n;
+  showGameByNumber(n);
+});
+
 }
 
 function showGameByNumber(number) {
