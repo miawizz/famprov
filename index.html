@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>FAMPROV – family improv games for connection</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <meta name="theme-color" content="#0E6F74" />
+  <meta name="description" content="FAMPROV – family improv games for connection" />
+
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", function () {
+        navigator.serviceWorker.register("service-worker.js");
+      });
+    }
+  </script>
+</head>
+
+<body>
+
+  <!-- One time courtesy overlay -->
+  <section id="courtesyOverlay" role="dialog" aria-labelledby="courtesyTitle" aria-modal="true">
+    <div class="courtesy-card">
+      <h2 id="courtesyTitle">Thanks for supporting this work</h2>
+      <p>
+        This app is for personal use only by families who have purchased access through Playful Heart Parenting.
+        Please keep this link private and do not share it publicly.
+      </p>
+      <label class="courtesy-check">
+        <input type="checkbox" id="courtesyAck" />
+        <span>I understand and I will keep this link private</span>
+      </label>
+      <button id="courtesyContinue" disabled>Continue to FAMPROV</button>
+    </div>
+  </section>
+
+  <!-- Install help bar -->
+  <details class="install-help gate-hide" id="install-help" data-dismiss-key="ph-install-help-famprov">
+    <summary class="install-help__wrap">
+      <div class="install-help__summary" role="button" aria-expanded="false">
+        <svg class="caret" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 10l5 5 5-5z"></path>
+        </svg>
+        <strong>Tap here for a reminder of how to save this app to your home screen</strong>
+        <button class="install-help__close" type="button" title="Hide">✖</button>
+      </div>
+    </summary>
+
+    <div class="install-help__panel" id="install-help-panel" aria-live="polite">
+      <div class="install-help__box" id="ios-safari" hidden>
+        <h4>iPhone or iPad using Safari</h4>
+        <ol class="install-help__steps">
+          <li>Tap the Share icon at the bottom of Safari</li>
+          <li>Choose Add to Home Screen</li>
+          <li>Tap Add</li>
+        </ol>
+      </div>
+
+      <div class="install-help__box" id="ios-chrome" hidden>
+        <h4>iPhone or iPad using Chrome</h4>
+        <ol class="install-help__steps">
+          <li>Tap the Share icon in the top right</li>
+          <li>Scroll and choose Add to Home Screen</li>
+          <li>Tap Add</li>
+        </ol>
+        <p class="install-help__tips">If you do not see this option, open the app in Safari and use the same steps</p>
+      </div>
+
+      <div class="install-help__box" id="android-chrome" hidden>
+        <h4>Android using Chrome</h4>
+        <ol class="install-help__steps">
+          <li>Tap the three dot menu in the top right</li>
+          <li>Choose Install app or Add to Home Screen</li>
+          <li>Confirm Install</li>
+        </ol>
+        <p class="install-help__tips">You may also see an Install button in the address bar</p>
+      </div>
+
+      <div class="install-help__box" id="android-samsung" hidden>
+        <h4>Android using Samsung Internet</h4>
+        <ol class="install-help__steps">
+          <li>Tap the menu button</li>
+          <li>Select Add page to then Home screen</li>
+          <li>Confirm</li>
+        </ol>
+      </div>
+
+      <div class="install-help__box" id="other-browsers" hidden>
+        <h4>Other browsers</h4>
+        <p>Look in the browser menu for Install or Add to Home Screen</p>
+      </div>
+
+      <p class="install-help__tips">Installing adds an icon to your home screen and makes it function like an app</p>
+
+      <button type="button" id="install-help-never" class="install-help__never">Do not show this again</button>
+    </div>
+  </details>
+
+  <a class="home-button" href="https://miawizz.github.io/php-app-hub/">
+    ← Back to Hub
+  </a>
+
+  <div class="app-shell">
+
+    <header class="app-header">
+      <img
+        src="icons/famprov-logo-horizontal.png"
+        alt="FAMPROV – family improv games for connection"
+        class="app-logo"
+      />
+    </header>
+
+    <main class="main">
+      <section class="welcome">
+        <p class="welcome-text">
+          Pick a category, then choose a game. You will see the instructions and a spot for the video clip.
+        </p>
+      </section>
+
+      <section class="picker">
+        <div class="field">
+          <label for="categorySelect">Category</label>
+          <select id="categorySelect">
+            <option value="" selected disabled>Select a category</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="gameSelect">Game</label>
+          <select id="gameSelect" disabled>
+            <option value="" selected disabled>Select a game</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="gameCard" class="game-card hidden" aria-live="polite">
+        <div class="game-card__top">
+          <div class="pill" id="gamePill">Category</div>
+          <div class="badge" id="gameNumber">#</div>
+        </div>
+
+        <h2 id="gameTitle" class="game-title">Game Title</h2>
+
+        <div id="gameText" class="game-text"></div>
+
+        <div class="video-wrap">
+          <div class="video-label">Video</div>
+          <div id="videoEmpty" class="video-empty">
+            Video clip coming soon
+          </div>
+          <video id="gameVideo" class="video hidden" controls playsinline preload="metadata">
+            <source id="gameVideoSource" src="" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>© 2026 Mia Wisinski, Playful Heart Parenting.</p>
+      <p>This app is for personal use only by those who have purchased from Playful Heart Parenting.</p>
+      <p>Please do not share this link publicly or distribute without explicit permission.</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+
+  <!-- Courtesy gate logic -->
+  <script>
+    (function () {
+      const COURTESY_KEY = "famprov_courtesy_v1";
+      const overlay = document.getElementById("courtesyOverlay");
+      const ack = document.getElementById("courtesyAck");
+      const btn = document.getElementById("courtesyContinue");
+      const bar = document.getElementById("install-help");
+
+      if (!overlay || !ack || !btn) return;
+
+      if (localStorage.getItem(COURTESY_KEY) === "yes") {
+        if (bar && !localStorage.getItem(bar.getAttribute("data-dismiss-key"))) {
+          bar.classList.remove("gate-hide");
+        }
+        return;
+      }
+
+      overlay.style.display = "grid";
+      if (bar) bar.classList.add("gate-hide");
+
+      ack.addEventListener("change", function () {
+        btn.disabled = !ack.checked;
+      });
+
+      btn.addEventListener("click", function () {
+        localStorage.setItem(COURTESY_KEY, "yes");
+        overlay.style.opacity = "0";
+        setTimeout(function () {
+          overlay.style.display = "none";
+          overlay.style.opacity = "1";
+          if (bar && !localStorage.getItem(bar.getAttribute("data-dismiss-key"))) {
+            bar.classList.remove("gate-hide");
+          }
+        }, 280);
+      });
+    })();
+  </script>
+
+  <!-- Install help logic -->
+  <script>
+    (function () {
+      const root = document.getElementById("install-help");
+      if (!root) return;
+
+      const closeBtn = root.querySelector(".install-help__close");
+      const providedKey = root.getAttribute("data-dismiss-key");
+      const key = (providedKey && providedKey.trim().length) ? providedKey : "ph-install-help::" + location.pathname;
+
+      try {
+        if (new URLSearchParams(location.search).get("reset_install_tip") === "1") {
+          localStorage.removeItem(key);
+        }
+      } catch (e) {}
+
+      if (localStorage.getItem(key) === "1") {
+        root.classList.add("hidden");
+        return;
+      }
+
+      closeBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        localStorage.setItem(key, "1");
+        root.classList.add("hidden");
+      });
+
+      const neverBtn = document.getElementById("install-help-never");
+      if (neverBtn) {
+        neverBtn.addEventListener("click", function () {
+          localStorage.setItem(key, "1");
+          root.classList.add("hidden");
+        });
+      }
+
+      const ua = navigator.userAgent || "";
+      const isIOS = /iPad|iPhone|iPod/.test(ua) || (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
+      const isAndroid = /Android/i.test(ua);
+      const isSamsung = /SamsungBrowser/i.test(ua);
+      const isCriOS = /CriOS/i.test(ua);
+      const isFxiOS = /FxiOS/i.test(ua);
+      const isSafari = isIOS && /Safari/i.test(ua) && !isCriOS && !isFxiOS;
+      const isChromeAndroid = isAndroid && /Chrome/i.test(ua) && !isSamsung;
+
+      function show(id) {
+        const el = document.getElementById(id);
+        if (el) el.hidden = false;
+      }
+
+      if (isIOS && isSafari) show("ios-safari");
+      else if (isIOS && isCriOS) show("ios-chrome");
+      else if (isAndroid && isSamsung) show("android-samsung");
+      else if (isChromeAndroid) show("android-chrome");
+      else show("other-browsers");
+
+      const label = root.querySelector(".install-help__summary strong");
+      const closedText = "Tap here for a reminder of how to save this app to your home screen";
+      const openText = "Hide instructions";
+
+      root.addEventListener("toggle", function () {
+        const exp = root.open ? "true" : "false";
+        const btn = root.querySelector(".install-help__summary");
+        if (btn) btn.setAttribute("aria-expanded", exp);
+        if (label) label.textContent = root.open ? openText : closedText;
+      });
+    })();
+  </script>
+
+</body>
+</html>
