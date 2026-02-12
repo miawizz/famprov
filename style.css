@@ -411,3 +411,8 @@ details[open] .install-help__summary .caret{ transform: rotate(180deg); }
   body{ padding: 12px 10px 24px; }
   .app-shell{ border-radius: 18px; }
 }
+
+#dropdownWrapper {
+  display: none;
+}
+
