@@ -1684,4 +1684,6 @@ function init() {
 }
 
 init();
+renderCollapsibleMenu();
+
 
