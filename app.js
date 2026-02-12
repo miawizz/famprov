@@ -586,30 +586,42 @@ Let little ones fill in the blanks like a Mad Lib. // “The horse’s name was�
   category: "STORYTELLING GAMES",
   title: "One Word Story",
   text: `**How to play**
-Create a story together by taking turns saying just one word. // Work together as if you were on me voice telling the story.
+Create a story together by taking turns saying just one word. // Work together as if you were one voice telling the story.
 
 **Example**
 “Once” // “upon” // “a” // “time” // “there” // “was” // “a” // “dragon…”
 
 **Ways to adjust the rules**
-* If one word feels too tricky, try every other sentence or every other phrase!
+* If one word feels too tricky, try every other sentence or every other phrase
 * Younger kids can say a few words while older kids or adults stick to one
-* Focus on flow rather than perfection
-
-**Fun “One-Word” Variations:**
-* 35. One Word Commercial
-* 36. One Word Motivational Speech
-* 37. One Word News Report
-* 38. One Word Robot
-* 39. One Word Poem
-* 40. One Word Fortune Teller
-* 41. One Word Complaint Letter
-* 42. One Word Dream “Last… night… I… dreamt…”
-* 43. One Word Customer Service Hotline (best with three players; one “calls” the hotline as the other two offer customer support together one word at a time)
-* 44. One Word Movie Trailer (start with the classic phrase “In a world…” and use your most dramatic voiceover voice)
-* 45. One Word Love Letter (for extra fun, you can pretend to open up a blank card and “read” it)`,
+* Focus on flow rather than perfection`,
+  variations: [
+    { number: 35, title: "One Word Commercial", text: `**How to play**
+Make up a commercial or advertisement for something ridiculous, trading off every other word. // Keep it upbeat and salesy. // Include side effects, a phone number to call, and lean in to the cheesy informercial energy!` },
+    { number: 36, title: "One Word Motivational Speech", text: `**How to play**
+Make up a dramatic inspirational speech by trading off every other word. // Imagine you are on a stage giving a big speech to hundreds of people and it's your job to get them excited and inspired // Of course, if it gets silly and ridiculous, even better!` },
+    { number: 37, title: "One Word News Report", text: `**How to play**
+Do One Word Story but make it like breaking news. // To get things going you can start with phrases like: This just in!` },
+    { number: 38, title: "One Word Robot", text: `**How to play**
+Work together to be a robot voice, trading off every other word. // This works well if one player asks the robot a question and the robot tries to answer it, as if it were a smart device.` },
+    { number: 39, title: "One Word Poem", text: `**How to play**
+Try to make up a poem together one word at a time, trading off every other word. // You can attempt to rhyme - or not! No rules in poetry.` },
+    { number: 40, title: "One Word Fortune Teller", text: `**How to play**
+Work together to predict someone’s future, trading off every other word. // You can start with: I'm seeing... or You will have...` },
+    { number: 41, title: "One Word Complaint Letter", text: `**How to play**
+Make up a formal complaint to a pretend company or person by trading off every other word. // Start with: Dear ____, and then launch into your complaint!` },
+    { number: 42, title: "One Word Dream", text: `**How to play**
+Make up a silly dream together, trading off every other word. // Start with “Last…” “night…” “I…” “dreamt…” // Then keep going.` },
+    { number: 43, title: "One Word Customer Service Hotline", text: `**How to play**
+Best with three players. // One is the caller, two are “support” speaking one word at a time together.` },
+    { number: 44, title: "One Word Movie Trailer", text: `**How to play**
+Start with “In…” “a…” “world…” // Then keep going like a trailer voiceover one word at a time!` },
+    { number: 45, title: "One Word Love Letter", text: `**How to play**
+Pretend to open a blank card and “read” it one word at a time. // Start with: Dear ____, you are...` },
+  ],
   videoUrl: ""
 },
+
 
 {
   number: 45,
