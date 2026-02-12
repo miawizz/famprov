@@ -541,15 +541,16 @@ details[open] .install-help__summary .caret{ transform: rotate(180deg); }
   font-size: 1.05rem;
   font-weight: 600;
 
-  background: #0E6F74;
-  color: #F6F1E8;
+  background: #DFF3F2;   /* light teal */
+  color: #0E6F74;        /* dark teal text */
 
   border: none;
   border-radius: 16px;
   cursor: pointer;
 
-  transition: transform 0.15s ease, opacity 0.15s ease;
+  transition: transform 0.15s ease, opacity 0.15s ease, background 0.15s ease;
 }
+
 
 .menu-item:hover {
   transform: translateY(-2px);
