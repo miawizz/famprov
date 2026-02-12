@@ -9,13 +9,14 @@ const GAMES = [
   number: 1,
   category: "WARM UP / CONNECTING GAMES",
   title: "Counting to Ten",
-  text: `How to play
-Try to count to ten as a pair or group without speaking at the same time and without deciding who goes next. One person starts by saying “one.” Anyone can say the next number in order, but if two people speak at once, you must start over at “one!”
-Example
-One person says “one.” Another says “two.” Someone else says “three.” If two people say “four” at the same time, you reset and begin again at “one.”
-Optional challenge
-- Once you succeed, try counting to twenty for a bigger challenge!
-- try looking at the floor so you’re not tempted to signal to each other to speak!`,
+  text: `**How to play**
+Try to count to ten as a pair or group without speaking at the same time and without deciding who goes next. // One person starts by saying “one.” // Anyone can say the next number in order, but if two people speak at once, you must start over at “one!”
+**Example**
+One person says “one.” // Another says “two.” // Someone else says “three.” // If two people say “four” at the same time, you reset and begin again at “one.”
+**Optional challenge**
+- Once you succeed, try counting to twenty for a bigger challenge! //
+- try looking at the floor so you’re not tempted to signal to each other to speak!`
+,
   videoUrl: ""
 },
 
