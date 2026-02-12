@@ -1585,11 +1585,54 @@ function renderMenu() {
     const games = gamesForCategory(GAMES, cat);
 
     const items = games.map((g) => {
-return `
-  <button class="menu-item" type="button" data-game="${g.number}">
-    <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
-  </button>
-`;
+      // Build the same formatted HTML you use in the card
+      let formatted = (g.text || "");
+      formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+      formatted = formatted.replace(/\n/g, "<br>");
+
+      const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
+      const videoHtml = hasUrl
+        ? `
+          <video class="game-video" controls playsinline>
+            <source src="${escapeHTML(String(g.videoUrl))}">
+          </video>
+        `
+        : `<div class="video-empty">Video coming soon</div>`;
+
+      const variations = (g.variations && g.variations.length)
+        ? `
+          <div class="variation-header"><strong>Variations</strong></div>
+          ${g.variations.map((v) => {
+            let vtxt = (v.text || "");
+            vtxt = vtxt.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+            vtxt = vtxt.replace(/\/\/\s*/g, "<br><br>");
+            vtxt = vtxt.replace(/\n/g, "<br>");
+            return `
+              <details class="variation">
+                <summary>${escapeHTML(String(v.label || ""))}. ${escapeHTML(String(v.title || ""))}</summary>
+                <div class="variation-body">${vtxt}</div>
+              </details>
+            `;
+          }).join("")}
+        `
+        : ``;
+
+      return `
+        <details class="menu-game" data-game="${g.number}">
+          <summary class="menu-item">
+            <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
+          </summary>
+
+          <div class="inline-game">
+            <div class="game-pill">${escapeHTML(g.category || "")}</div>
+            <div class="game-title">${escapeHTML(g.title || "")}</div>
+            <div class="game-text">${formatted}</div>
+            <div class="game-variations">${variations}</div>
+            <div class="game-video-wrap">${videoHtml}</div>
+          </div>
+        </details>
+      `;
     }).join("");
 
     return `
@@ -1603,6 +1646,8 @@ return `
   }).join("");
 
   menu.innerHTML = html;
+}
+
 
   // Click handler for all game buttons
 let openGameNumber = null;
