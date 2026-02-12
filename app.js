@@ -151,7 +151,7 @@ This version works best with slightly older kids. // Count down from three and s
 **Tip**
 If you start feeling stuck, reset and begin again with a brand-new word. // In improv, this is sometimes called “going out to go in,” meaning you zoom out of the game so you can re-enter with fresh energy. // The goal is to have fun, not to force it!`,
   videoUrl: ""
-}
+},
 
    {
   number: 15,
@@ -362,7 +362,7 @@ A hand swipes across your face and you suddenly switch from a sleepy face to an 
 * Include sound effects or body movement to match each new face
 * Take turns being the one who swipes and the one who changes faces`,
   videoUrl: ""
-}
+},
    {
   number: 24,
   category: "CONVERSATION GAMES",
@@ -551,7 +551,7 @@ Take turns saying a sentence at a time to each other, having a made-up conversat
 **Example**
 Player one: “Hi.” // Player two: “Hi, Barbara!” // Player one: “How are you?” // Player two: “I’m feeling excited today!” // Player one: “Did you get that job??”`,
   videoUrl: ""
-}
+},
 {
   number: 33,
   category: "STORYTELLING GAMES",
@@ -664,7 +664,7 @@ Player one: “How was your day today?” // Player two flips through the book a
 * Set a time limit for finding a line
 * Switch books halfway through`,
   videoUrl: ""
-}
+},
 {
   number: 48,
   category: "MUSICAL GAMES",
@@ -900,7 +900,7 @@ Everyone performs the dance together.
 * Change the music style mid-dance
 * Perform the dance like it’s going viral online`,
   videoUrl: ""
-}
+},
 {
   number: 56,
   category: "CREATIVITY CHALLENGES",
@@ -1039,7 +1039,7 @@ The secret crime is: tooting at the playground with Buzz Lightyear.
 
 Interrogator: “Let’s start with what you did. We’re all still recovering from the smell.” // Criminal guesses: “I tooted?” // Interrogator: “Exactly. But where you did it made it even worse. Didn’t you think about all those poor kids just trying to enjoy the swings?” // Criminal guesses: “The playground?” // Interrogator: “Yes. And we cannot believe who you did this with. You really took this crime to the next level… to infinity and beyond.” // Criminal guesses: “Buzz Lightyear!”`,
   videoUrl: ""
-}
+},
 {
   number: 67,
   category: "PHYSICAL GAMES",
@@ -1216,7 +1216,7 @@ If this feels too tricky or frustrating, regular charades is always a great fall
 **Why this game matters**
 Reverse Charades builds communication, listening, and cooperation. // It helps kids practice giving clear directions and following guidance while staying playful and engaged.`,
   videoUrl: ""
-}
+},
 {
   number: 72,
   category: "PHYSICAL GAMES",
@@ -1299,7 +1299,7 @@ Work together to move slowly at first, then build confidence and creativity.
 **Important note**
 This game is not about making fun of bodies. // The humor comes from the illusion, the unrealistic flexibility, and the levitating, impossible movements. // The goal is playful creativity, not imitation or mockery.`,
   videoUrl: ""
-}
+},
 {
   number: 74,
   category: "PROPS GAMES",
