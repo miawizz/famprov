@@ -35,6 +35,82 @@ body{
   border: 1px solid rgba(0,0,0,0.06);
 }
 
+/* Collapsible menu */
+#menu{
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+
+/* Category details */
+#menu details.category{
+  border: none;
+  background: transparent;
+}
+
+#menu details.category > summary{
+  list-style: none;
+  cursor: pointer;
+
+  background: var(--teal);
+  color: var(--cream);
+
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+
+  padding: 14px 16px;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-shadow: 0 6px 16px rgba(0,0,0,.10);
+}
+
+#menu details.category > summary::-webkit-details-marker{
+  display:none;
+}
+
+#menu details.category[open] > summary{
+  background: var(--teal-dark);
+}
+
+/* Container that holds the game buttons */
+#menu .game-list{
+  margin-top: 10px;
+  display: grid;
+  gap: 10px;
+}
+#menu .game-btn{
+  width: 100%;
+  text-align: left;
+
+  padding: 14px 16px;
+  border-radius: 14px;
+
+  border: 2px solid rgba(14,111,116,.25);
+  background: rgba(14,111,116,.10);
+  color: #073c3f;
+
+  font-weight: 700;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+#menu .game-btn:hover{
+  background: rgba(14,111,116,.16);
+}
+
+#menu .game-btn.is-active{
+  background: var(--teal);
+  border-color: var(--teal);
+  color: var(--cream);
+}
+
+
 .app-header{
   padding: 22px 18px 14px;
   background:
