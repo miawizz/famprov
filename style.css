@@ -16,7 +16,9 @@
 
 body{
   font-family: "Poppins", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
-  background: var(--cream);
+  background: radial-gradient(1200px 700px at 20% 0%, rgba(242,178,51,0.25), transparent 60%),
+              radial-gradient(900px 600px at 90% 10%, rgba(232,91,99,0.22), transparent 55%),
+              linear-gradient(180deg, var(--teal), #0A5B5F);
   color: var(--ink);
   min-height: 100vh;
   padding: 18px 14px 30px;
@@ -26,7 +28,7 @@ body{
   width: 100%;
   max-width: 980px;
   margin: 0 auto;
-  background: linear-gradient(180deg, var(--paper), #ffffff);
+  background: var(--paper);
   border-radius: var(--radius-xl);
   box-shadow: var(--shadow);
   overflow: hidden;
