@@ -1696,6 +1696,5 @@ function init() {
 }
 
 init();
-renderCollapsibleMenu();
 
 
