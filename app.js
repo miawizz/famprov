@@ -1537,6 +1537,36 @@ function renderTextPreserveLines(text) {
     return;
   }
 
+   function renderVariations(variations) {
+  const wrap = document.getElementById("gameVariations");
+  if (!wrap) return;
+
+  if (!variations || !variations.length) {
+    wrap.innerHTML = "";
+    return;
+  }
+
+  const blocks = variations.map((v) => {
+    let formatted = (v.text || "");
+    formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+    formatted = formatted.replace(/\n/g, "<br>");
+
+    return `
+      <details class="variation">
+        <summary>${v.number}. ${v.title}</summary>
+        <div class="variation-body">${formatted}</div>
+      </details>
+    `;
+  });
+
+  wrap.innerHTML = `
+    <div class="variation-header"><strong>Variations</strong></div>
+    ${blocks.join("")}
+  `;
+}
+
+
   // Convert **bold**
   let formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
 
@@ -1603,6 +1633,8 @@ function showGameByNumber(number) {
   els.gameTitle.textContent = g.title || "";
   renderTextPreserveLines(g.text || "");
   setVideo(g.videoUrl || "");
+
+   renderVariations(g.variations || []);
 
   // Scroll into view on mobile
   els.gameCard.scrollIntoView({ behavior: "smooth", block: "start" });
