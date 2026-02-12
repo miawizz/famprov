@@ -1701,7 +1701,7 @@ function showGameByNumber(number) {
   setVideo(g.videoUrl || "");
 
    renderVariations(g.variations || []);
-
+}
 function init() {
   // We are switching from dropdowns to collapsible menu
   // So we are not wiring categorySelect/gameSelect anymore
