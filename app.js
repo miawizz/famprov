@@ -152,6 +152,196 @@ This version works best with slightly older kids. // Count down from three and s
 If you start feeling stuck, reset and begin again with a brand-new word. // In improv, this is sometimes called “going out to go in,” meaning you zoom out of the game so you can re-enter with fresh energy. // The goal is to have fun, not to force it!`,
   videoUrl: ""
 }
+   {
+  number: 24,
+  category: "CONVERSATION GAMES",
+  title: "Yes, And",
+  text: `**How to play**
+One person starts by saying a statement. // The other person must respond beginning with the words “Yes, and…”, agreeing with what was just said and adding a new detail that fits. // Players take turns continuing the exchange, always accepting the last idea and building on it.
+
+The only rule is that responses must start with “Yes, and...”
+
+**Example**
+Player one: “I’m so excited it’s your birthday today!” // Player two: “Yes, and it’s almost time to eat cake...” // Player one: “Yes, and it’s our favorite kind, chocolate with sprinkles.!” // Player two: “Yes, and I can’t believe the sprinkles were on sale for half off at the grocery store!”
+
+**How it works**
+Each new sentence grows directly out of what the last person said. // No correcting, redirecting, or taking over the story. // Just listening, accepting, and adding! // This “yes, and” principle is the basis of improv, so this is a perfect game to introduce the concept.
+
+**Optional prompts to get started**
+* “We’re going on an adventure…”
+* “This is the best day ever because…”
+* “Something surprising just happened…”
+* “I just opened the door and saw…”
+
+**Optional challenge**
+* Set a timer and try to keep the story going for a full minute without pausing - it’s a great exercise in not overthinking!
+* Switch to whispering, dramatic voices, or silly accents
+
+**Why this game matters**
+This game helps kids practice listening, flexibility, and cooperation in real time. // It encourages letting go of control, trusting the group, and discovering that building together is more fun than steering alone.`,
+  videoUrl: ""
+},
+
+{
+  number: 25,
+  category: "CONVERSATION GAMES",
+  title: "Yes, But",
+  text: `**How to play**
+One person makes a statement. // The next person must respond starting with “Yes, but…”, agreeing with what was said and then adding a surprising or silly detail that changes the direction slightly. // Players take turns continuing the conversation, always accepting what came before while introducing a new twist.
+
+The key is that the “but” adds interest, not resistance!
+
+**Example**
+Player one: “I heard there’s a new ice cream shop down the street.” // Player two: “Yes, but they only serve pickle-flavored ice cream…” // Player one: “Yes, but it’s apparently really delicious!” // Player two: “Yes, but they serve it with chopsticks instead of spoons.” // Player one: “Yes, but the chopsticks help you pick out the pickle chunks.”
+
+**How it works**
+Each response still agrees with the reality of the story. // The fun comes from how strange or unexpected the twists become, not from shutting ideas down.
+
+**Optional prompts to get started**
+* “We just found a secret door…”
+* “Something unusual showed up at dinner…”
+* “Our family won a prize…”
+* “There’s a new rule at school…”
+
+**Optional challenge**
+* Switch between Yes, And and Yes, But to feel the difference`,
+  videoUrl: ""
+},
+
+{
+  number: 26,
+  category: "CONVERSATION GAMES",
+  title: "Out-Compliment Each Other",
+  text: `**How to play**
+One person starts by giving a compliment. // The other person responds by saying “Thank you, but…”, then uses something from the first compliment to inspire a new, bigger, or more unexpected compliment back. // Players take turns continuing the exchange, always building off the last compliment.
+
+The goal is not sincerity or realism, but playful escalation.
+
+**Example**
+Player one: “I just love your shoes!” // Player two: “Thank you, but I love the way your shoes squeak when you walk. It reminds me of a cute mouse.” // Player one: “Thank you, but speaking of mice, I love the way you eat cheese so carefully!” // Player two: “Thank you, but the way I eat cheese is nothing compared to your cheesy jokes. You always make me laugh!”`,
+  videoUrl: ""
+},
+
+{
+  number: 27,
+  category: "CONVERSATION GAMES",
+  title: "Pretend Interview",
+  text: `**How to play**
+Choose one person to be the Interviewer and one person to be the Special Guest. // You can pretend it’s a radio show, podcast, or talk show! // The interviewer greets the “audience” and introduces the guest, inventing a random personality, job, or character for them. // The guest accepts the character and answers questions as that character, building on the details using Yes, And.
+
+After a few questions, switch roles.
+
+**Example**
+Interviewer: “Hello and welcome to F.A.R.T. 101.5. We have a very special guest with us today. She is a traveling goat trainer who is in town performing a show where she dances and does tricks with goats. Matilda, tell us all about your show and how you got into goat training.” // Guest: “Yes, thank you for having me. I got interested in goats when I was three years old and met a goat named Ralph at the petting zoo. The rest is history!”
+
+**How it works**
+The interviewer keeps asking curious questions. // The guest’s job is to accept the character and keep adding details instead of correcting or steering away from it.
+
+**Optional prompts to inspire characters**
+* A famous chef
+* A superhero
+* An explorer
+* A musician or singer
+* An actor promoting a new film
+
+**Optional challenge**
+* Record the interview using a voice memo app and listen back later
+* Add a commercial break or radio show jingle`,
+  videoUrl: ""
+},
+
+{
+  number: 28,
+  category: "CONVERSATION GAMES",
+  title: "Questions Only",
+  text: `**How to play**
+Have a conversation where every response must be a question. // Players take turns responding to each other, but if someone accidentally makes a statement instead of asking a question, you can either laugh and keep going or decide to reset and start over.
+
+The goal is to stay curious and keep the conversation moving.
+
+**Example**
+Player one: “Did you see Susan yesterday?” // Player two: “Susan Bumsquat?” // Player one: “Isn’t that the Susan we met at the holiday party?” // Player two: “Was she the one dressed like an elf?” // Player one: “Why do elves wear pointy shoes?”
+
+**Optional prompts to get started**
+* “Did you hear what happened today?”
+* “Do you remember that strange noise we heard yesterday?”
+* “Is this where we left the treasure?”
+* “Why is everyone looking at us?”`,
+  videoUrl: ""
+},
+
+{
+  number: 29,
+  category: "CONVERSATION GAMES",
+  title: "Gibberish",
+  text: `**How to play**
+Have a conversation using only gibberish. // Players make up sounds instead of real words while using facial expressions, gestures, and tone to communicate. // The goal is to listen closely and respond as if the gibberish is a real language.
+
+**Example**
+One player speaks in expressive gibberish with dramatic gestures. // The other player responds in gibberish, reacting as if they fully understand what was just said.
+
+**How it works**
+There are no real words, but the conversation should still feel connected. // Pay attention to inflection, rhythm, and body language to guide your response.
+
+**Optional variations**
+* Make sounds by gently dragging a finger up and down over your lips
+* Use big emotions like excitement, frustration, or surprise
+* After the scene, guess what the other person was “saying” and see if you were close!`,
+  videoUrl: ""
+},
+
+{
+  number: 30,
+  category: "CONVERSATION GAMES",
+  title: "Gibberish Translator",
+  text: `**How to play**
+Choose one player to be the Gibberish Speaker and another to be the Translator. // The Gibberish Speaker talks in gibberish while the Translator listens. // After each gibberish sentence, pause and let the Translator explain what they think was just said.
+
+If there are multiple players, you can have several Gibberish Speakers talking to each other, pausing periodically so one or more Translators can interpret.
+
+**Example**
+Gibberish Speaker delivers an expressive gibberish sentence. // Pause. // Translator says, “They’re explaining how they were late to the party because a dragon blocked the road.”
+
+**Reminder**
+There are no wrong answers. // The Translator bases their interpretation on facial expressions, tone, and gestures, and the Gibberish Speaker goes along with it!
+
+**Optional prompts to get you started**
+* Telling a story that begins with “Once upon a time…”
+* Explaining something that happened earlier that day
+* Giving a dramatic speech
+* Sharing exciting news`,
+  videoUrl: ""
+},
+
+{
+  number: 31,
+  category: "CONVERSATION GAMES",
+  title: "Alphabet Conversation",
+  text: `**How to play**
+Have a conversation together, taking turns speaking. // Each new sentence must begin with the next letter of the alphabet in order.
+
+The conversation can be completely made up. // You can give each other new names, invent situations, and go in any direction you want.
+
+**Example**
+Player one: “Ahh, Gerald, how are you today?” // Player two: “Been better.” // Player one: “Cat ran away again?” // Player two: “Dang cat always running away, yes!”
+
+**Tip**
+The goal is not to be clever or perfect, but to keep the conversation moving. // If someone gets stuck, the other player can help by suggesting a word, reminding them of the letter, or jumping in to support.`,
+  videoUrl: ""
+},
+
+{
+  number: 32,
+  category: "CONVERSATION GAMES",
+  title: "Counting Conversation",
+  text: `**How to play**
+Take turns saying a sentence at a time to each other, having a made-up conversation. // Each turn must include one more word than the previous turn. // Start with one word, then two words, then three, and continue building upward. // Try to work your way up to ten, or more!
+
+**Example**
+Player one: “Hi.” // Player two: “Hi, Barbara!” // Player one: “How are you?” // Player two: “I’m feeling excited today!” // Player one: “Did you get that job??”`,
+  videoUrl: ""
+}
+
 
    {
   number: 15,
