@@ -616,6 +616,13 @@ details.variation[open] > summary::after {
   line-height: 1.45;
 }
 
+details.variation[open] .variation-body {
+  padding: 12px;
+  border-radius: 12px;
+  background: rgba(0,0,0,0.18);
+  border-top: none;
+}
+
 
 
 
