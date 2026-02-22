@@ -1442,11 +1442,6 @@ function escapeHTML(str) {
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
-function renderTextPreserveLines(text) {
-  if (!text) {
-    els.gameText.innerHTML = "";
-    return;
-  }
 
    
 
