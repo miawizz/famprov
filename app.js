@@ -614,6 +614,8 @@ variations: [
 • Best with three players. // • One is the caller, two are “support” speaking one word at a time together.` },
   { title: "One Word Movie Trailer", text: `**How to play**
 • Start with “In…” “a…” “world…” // • Then keep going like a trailer voiceover one word at a time!` },
+     { title: "One Word GPS", text: `**How to play**
+• Give directions to a destination one word at a time! // • Add in funny pit stops, U-turns, landmarks, and silly street names` },
   { title: "One Word Love Letter", text: `**How to play**
 • Pretend to open a blank card and “read” it one word at a time. // • Start with: Dear ____, you are...` },
 ],
