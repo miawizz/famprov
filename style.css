@@ -146,6 +146,14 @@ body{
   border: 1px solid rgba(14,111,116,0.14);
   margin-bottom: 16px;
 }
+.welcome ul {
+  padding-left: 20px;
+  margin: 10px 0 0 0;
+}
+
+.welcome li {
+  margin-bottom: 6px;
+}
 
 .welcome-text{
   font-size: 0.98rem;
