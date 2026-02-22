@@ -1425,13 +1425,6 @@ Treat every item like it’s the best thing you’ve ever seen!`,
 
 const els = {
   menu: document.getElementById("menu"),
-  gameCard: document.getElementById("gameCard"),
-  gamePill: document.getElementById("gamePill"),
-  gameTitle: document.getElementById("gameTitle"),
-  gameText: document.getElementById("gameText"),
-  gameVideo: document.getElementById("gameVideo"),
-  gameVideoSource: document.getElementById("gameVideoSource"),
-  videoEmpty: document.getElementById("videoEmpty"),
 };
 
 function uniqueCategories(games) {
