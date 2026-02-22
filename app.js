@@ -1560,27 +1560,6 @@ function renderMenu() {
 }
 
 
-  // Click handler for all game buttons
-let openGameNumber = null;
-
-els.menu.addEventListener("click", function (e) {
-  const btn = e.target.closest("[data-game]");
-  if (!btn) return;
-
-  const n = btn.getAttribute("data-game");
-
-  // If you tap the same game again, collapse it
-  if (openGameNumber === n) {
-    els.gameCard.classList.add("hidden");
-    openGameNumber = null;
-    return;
-  }
-
-  openGameNumber = n;
-  showGameByNumber(n);
-});
-
-
 function renderVariations(variations) {
   const wrap = document.getElementById("gameVariations");
   if (!wrap) return;
@@ -1610,18 +1589,6 @@ function renderVariations(variations) {
   `;
 }
 
-function showGameByNumber(number) {
-  const g = GAMES.find(x => String(x.number) === String(number));
-  if (!g) return;
-
-  els.gameCard.classList.remove("hidden");
-  els.gamePill.textContent = g.category || "";
-  els.gameTitle.textContent = g.title || "";
-  renderTextPreserveLines(g.text || "");
-  setVideo(g.videoUrl || "");
-
-   renderVariations(g.variations || []);
-}
 function init() {
   // We are switching from dropdowns to collapsible menu
   // So we are not wiring categorySelect/gameSelect anymore
