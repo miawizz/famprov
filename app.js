@@ -1422,167 +1422,108 @@ Treat every item like it’s the best thing you’ve ever seen!`,
 
 ];
 
-
 const els = {
   menu: document.getElementById("menu"),
 };
 
 function uniqueCategories(games) {
-  const set = new Set(games.map(g => g.category));
+  const set = new Set(games.map((g) => g.category));
   return Array.from(set);
 }
 
 function gamesForCategory(games, category) {
-  return games.filter(g => g.category === category);
+  return games.filter((g) => g.category === category);
 }
 
 function escapeHTML(str) {
-  return str
+  return String(str)
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
 
-   
-
-  // Convert **bold**
-  let formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-
-  // Convert // into line breaks
-  formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
-
-  // Preserve existing line breaks
-  formatted = formatted.replace(/\n/g, "<br>");
-
-  els.gameText.innerHTML = formatted;
-}
-
-
-function setVideo(url) {
-  const hasUrl = Boolean(url && String(url).trim().length);
-  if (!hasUrl) {
-    els.gameVideo.classList.add("hidden");
-    els.videoEmpty.classList.remove("hidden");
-    els.gameVideoSource.src = "";
-    try { els.gameVideo.load(); } catch (e) {}
-    return;
-  }
-
-  els.videoEmpty.classList.add("hidden");
-  els.gameVideo.classList.remove("hidden");
-  els.gameVideoSource.src = url;
-  try { els.gameVideo.load(); } catch (e) {}
-}
-
 function renderMenu() {
-  const menu = document.getElementById("menu");
+  const menu = els.menu;
   if (!menu) return;
 
   const cats = uniqueCategories(GAMES);
 
-  const html = cats.map((cat) => {
-    const games = gamesForCategory(GAMES, cat);
+  const html = cats
+    .map((cat) => {
+      const games = gamesForCategory(GAMES, cat);
 
-    const items = games.map((g) => {
-      // Build the same formatted HTML you use in the card
-      let formatted = (g.text || "");
-      formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-      formatted = formatted.replace(/\/\/\s*/g, "<br>");
-      formatted = formatted.replace(/\n/g, "<br>");
+      const items = games
+        .map((g) => {
+          let formatted = g.text || "";
+          formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+          formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+          formatted = formatted.replace(/\n/g, "<br>");
 
-      const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
-      const videoHtml = hasUrl
-        ? `
-          <video class="game-video" controls playsinline>
-            <source src="${escapeHTML(String(g.videoUrl))}">
-          </video>
-        `
-        : `<div class="video-empty">Video coming soon</div>`;
+          const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
+          const videoHtml = hasUrl
+            ? `
+              <video class="game-video" controls playsinline preload="metadata">
+                <source src="${escapeHTML(g.videoUrl)}" type="video/mp4">
+              </video>
+            `
+            : `<div class="video-empty">Video coming soon</div>`;
 
-      const variations = (g.variations && g.variations.length)
-        ? `
-          <div class="variation-header"><strong>Variations</strong></div>
-          ${g.variations.map((v) => {
-            let vtxt = (v.text || "");
-            vtxt = vtxt.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-            vtxt = vtxt.replace(/\/\/\s*/g, "<br><br>");
-            vtxt = vtxt.replace(/\n/g, "<br>");
-            return `
-              <details class="variation">
-                <summary>${escapeHTML(String(v.label || ""))}. ${escapeHTML(String(v.title || ""))}</summary>
-                <div class="variation-body">${vtxt}</div>
-              </details>
-            `;
-          }).join("")}
-        `
-        : ``;
+          const variations =
+            g.variations && g.variations.length
+              ? `
+                <div class="variation-header"><strong>Variations</strong></div>
+                ${g.variations
+                  .map((v) => {
+                    let vtxt = v.text || "";
+                    vtxt = vtxt.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+                    vtxt = vtxt.replace(/\/\/\s*/g, "<br><br>");
+                    vtxt = vtxt.replace(/\n/g, "<br>");
+
+                    return `
+                      <details class="variation">
+                        <summary>${escapeHTML(v.label || "")}. ${escapeHTML(v.title || "")}</summary>
+                        <div class="variation-body">${vtxt}</div>
+                      </details>
+                    `;
+                  })
+                  .join("")}
+              `
+              : "";
+
+          return `
+            <details class="menu-game" data-game="${escapeHTML(g.number)}">
+              <summary class="menu-item">
+                <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
+              </summary>
+
+              <div class="inline-game">
+                <div class="game-pill">${escapeHTML(g.category || "")}</div>
+                <div class="game-title">${escapeHTML(g.title || "")}</div>
+                <div class="game-text">${formatted}</div>
+                <div class="game-variations">${variations}</div>
+                <div class="game-video-wrap">${videoHtml}</div>
+              </div>
+            </details>
+          `;
+        })
+        .join("");
 
       return `
-        <details class="menu-game" data-game="${g.number}">
-          <summary class="menu-item">
-            <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
-          </summary>
-
-          <div class="inline-game">
-            <div class="game-pill">${escapeHTML(g.category || "")}</div>
-            <div class="game-title">${escapeHTML(g.title || "")}</div>
-            <div class="game-text">${formatted}</div>
-            <div class="game-variations">${variations}</div>
-            <div class="game-video-wrap">${videoHtml}</div>
+        <details class="menu-cat">
+          <summary class="menu-cat__summary">${escapeHTML(cat)}</summary>
+          <div class="menu-cat__items">
+            ${items}
           </div>
         </details>
       `;
-    }).join("");
-
-    return `
-      <details class="menu-cat">
-        <summary class="menu-cat__summary">${escapeHTML(cat)}</summary>
-        <div class="menu-cat__items">
-          ${items}
-        </div>
-      </details>
-    `;
-  }).join("");
+    })
+    .join("");
 
   menu.innerHTML = html;
 }
 
-
-function renderVariations(variations) {
-  const wrap = document.getElementById("gameVariations");
-  if (!wrap) return;
-
-  if (!variations || !variations.length) {
-    wrap.innerHTML = "";
-    return;
-  }
-
-  const blocks = variations.map((v) => {
-    let formatted = (v.text || "");
-    formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-    formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
-    formatted = formatted.replace(/\n/g, "<br>");
-
-    return `
-      <details class="variation">
-        <summary>${v.label}. ${v.title}</summary>
-        <div class="variation-body">${formatted}</div>
-      </details>
-    `;
-  });
-
-  wrap.innerHTML = `
-    <div class="variation-header"><strong>Variations</strong></div>
-    ${blocks.join("")}
-  `;
-}
-
 function init() {
-  // We are switching from dropdowns to collapsible menu
-  // So we are not wiring categorySelect/gameSelect anymore
   renderMenu();
 }
 
 init();
-
-
