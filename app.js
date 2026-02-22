@@ -1422,107 +1422,209 @@ Treat every item like it’s the best thing you’ve ever seen!`,
 
 ];
 
+
 const els = {
   menu: document.getElementById("menu"),
+  gameCard: document.getElementById("gameCard"),
+  gamePill: document.getElementById("gamePill"),
+  gameTitle: document.getElementById("gameTitle"),
+  gameText: document.getElementById("gameText"),
+  gameVideo: document.getElementById("gameVideo"),
+  gameVideoSource: document.getElementById("gameVideoSource"),
+  videoEmpty: document.getElementById("videoEmpty"),
 };
 
 function uniqueCategories(games) {
-  const set = new Set(games.map((g) => g.category));
+  const set = new Set(games.map(g => g.category));
   return Array.from(set);
 }
 
 function gamesForCategory(games, category) {
-  return games.filter((g) => g.category === category);
+  return games.filter(g => g.category === category);
 }
 
 function escapeHTML(str) {
-  return String(str)
+  return str
     .replaceAll("&", "&amp;")
     .replaceAll("<", "&lt;")
     .replaceAll(">", "&gt;");
 }
+function renderTextPreserveLines(text) {
+  if (!text) {
+    els.gameText.innerHTML = "";
+    return;
+  }
+
+   
+
+  // Convert **bold**
+  let formatted = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+
+  // Convert // into line breaks
+  formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+
+  // Preserve existing line breaks
+  formatted = formatted.replace(/\n/g, "<br>");
+
+  els.gameText.innerHTML = formatted;
+}
+
+
+function setVideo(url) {
+  const hasUrl = Boolean(url && String(url).trim().length);
+  if (!hasUrl) {
+    els.gameVideo.classList.add("hidden");
+    els.videoEmpty.classList.remove("hidden");
+    els.gameVideoSource.src = "";
+    try { els.gameVideo.load(); } catch (e) {}
+    return;
+  }
+
+  els.videoEmpty.classList.add("hidden");
+  els.gameVideo.classList.remove("hidden");
+  els.gameVideoSource.src = url;
+  try { els.gameVideo.load(); } catch (e) {}
+}
 
 function renderMenu() {
-  const menu = els.menu;
+  const menu = document.getElementById("menu");
   if (!menu) return;
 
   const cats = uniqueCategories(GAMES);
 
-  const html = cats
-    .map((cat) => {
-      const games = gamesForCategory(GAMES, cat);
+  const html = cats.map((cat) => {
+    const games = gamesForCategory(GAMES, cat);
 
-      const items = games
-        .map((g) => {
-          let formatted = g.text || "";
-          formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-          formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
-          formatted = formatted.replace(/\n/g, "<br>");
+    const items = games.map((g) => {
+      // Build the same formatted HTML you use in the card
+      let formatted = (g.text || "");
+      formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+      formatted = formatted.replace(/\/\/\s*/g, "<br>");
+      formatted = formatted.replace(/\n/g, "<br>");
 
-          const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
-          const videoHtml = hasUrl
-            ? `
-              <video class="game-video" controls playsinline preload="metadata">
-                <source src="${escapeHTML(g.videoUrl)}" type="video/mp4">
-              </video>
-            `
-            : `<div class="video-empty">Video coming soon</div>`;
+      const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
+      const videoHtml = hasUrl
+        ? `
+          <video class="game-video" controls playsinline>
+            <source src="${escapeHTML(String(g.videoUrl))}">
+          </video>
+        `
+        : `<div class="video-empty">Video coming soon</div>`;
 
-          const variations =
-            g.variations && g.variations.length
-              ? `
-                <div class="variation-header"><strong>Variations</strong></div>
-                ${g.variations
-                  .map((v) => {
-                    let vtxt = v.text || "";
-                    vtxt = vtxt.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-                    vtxt = vtxt.replace(/\/\/\s*/g, "<br><br>");
-                    vtxt = vtxt.replace(/\n/g, "<br>");
-
-                    return `
-                      <details class="variation">
-                        <summary>${escapeHTML(v.label || "")}. ${escapeHTML(v.title || "")}</summary>
-                        <div class="variation-body">${vtxt}</div>
-                      </details>
-                    `;
-                  })
-                  .join("")}
-              `
-              : "";
-
-          return `
-            <details class="menu-game" data-game="${escapeHTML(g.number)}">
-              <summary class="menu-item">
-                <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
-              </summary>
-
-              <div class="inline-game">
-                <div class="game-pill">${escapeHTML(g.category || "")}</div>
-                <div class="game-title">${escapeHTML(g.title || "")}</div>
-                <div class="game-text">${formatted}</div>
-                <div class="game-variations">${variations}</div>
-                <div class="game-video-wrap">${videoHtml}</div>
-              </div>
-            </details>
-          `;
-        })
-        .join("");
+      const variations = (g.variations && g.variations.length)
+        ? `
+          <div class="variation-header"><strong>Variations</strong></div>
+          ${g.variations.map((v) => {
+            let vtxt = (v.text || "");
+            vtxt = vtxt.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+            vtxt = vtxt.replace(/\/\/\s*/g, "<br><br>");
+            vtxt = vtxt.replace(/\n/g, "<br>");
+            return `
+              <details class="variation">
+                <summary>${escapeHTML(String(v.label || ""))}. ${escapeHTML(String(v.title || ""))}</summary>
+                <div class="variation-body">${vtxt}</div>
+              </details>
+            `;
+          }).join("")}
+        `
+        : ``;
 
       return `
-        <details class="menu-cat">
-          <summary class="menu-cat__summary">${escapeHTML(cat)}</summary>
-          <div class="menu-cat__items">
-            ${items}
+        <details class="menu-game" data-game="${g.number}">
+          <summary class="menu-item">
+            <span class="menu-item__title">${escapeHTML(g.title || "")}</span>
+          </summary>
+
+          <div class="inline-game">
+            <div class="game-pill">${escapeHTML(g.category || "")}</div>
+            <div class="game-title">${escapeHTML(g.title || "")}</div>
+            <div class="game-text">${formatted}</div>
+            <div class="game-variations">${variations}</div>
+            <div class="game-video-wrap">${videoHtml}</div>
           </div>
         </details>
       `;
-    })
-    .join("");
+    }).join("");
+
+    return `
+      <details class="menu-cat">
+        <summary class="menu-cat__summary">${escapeHTML(cat)}</summary>
+        <div class="menu-cat__items">
+          ${items}
+        </div>
+      </details>
+    `;
+  }).join("");
 
   menu.innerHTML = html;
 }
 
+
+  // Click handler for all game buttons
+let openGameNumber = null;
+
+els.menu.addEventListener("click", function (e) {
+  const btn = e.target.closest("[data-game]");
+  if (!btn) return;
+
+  const n = btn.getAttribute("data-game");
+
+  // If you tap the same game again, collapse it
+  if (openGameNumber === n) {
+    els.gameCard.classList.add("hidden");
+    openGameNumber = null;
+    return;
+  }
+
+  openGameNumber = n;
+  showGameByNumber(n);
+});
+
+
+function renderVariations(variations) {
+  const wrap = document.getElementById("gameVariations");
+  if (!wrap) return;
+
+  if (!variations || !variations.length) {
+    wrap.innerHTML = "";
+    return;
+  }
+
+  const blocks = variations.map((v) => {
+    let formatted = (v.text || "");
+    formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
+    formatted = formatted.replace(/\/\/\s*/g, "<br><br>");
+    formatted = formatted.replace(/\n/g, "<br>");
+
+    return `
+      <details class="variation">
+        <summary>${v.label}. ${v.title}</summary>
+        <div class="variation-body">${formatted}</div>
+      </details>
+    `;
+  });
+
+  wrap.innerHTML = `
+    <div class="variation-header"><strong>Variations</strong></div>
+    ${blocks.join("")}
+  `;
+}
+
+function showGameByNumber(number) {
+  const g = GAMES.find(x => String(x.number) === String(number));
+  if (!g) return;
+
+  els.gameCard.classList.remove("hidden");
+  els.gamePill.textContent = g.category || "";
+  els.gameTitle.textContent = g.title || "";
+  renderTextPreserveLines(g.text || "");
+  setVideo(g.videoUrl || "");
+
+   renderVariations(g.variations || []);
+}
 function init() {
+  // We are switching from dropdowns to collapsible menu
+  // So we are not wiring categorySelect/gameSelect anymore
   renderMenu();
 }
 
