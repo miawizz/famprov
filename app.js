@@ -1510,9 +1510,9 @@ function renderMenu() {
 <video class="game-video"
   controls
   playsinline
-  preload="metadata"
+  preload="none"
   poster="https://pub-1d6e4f1742544c2da598dbfc3f914025.r2.dev/thumbnail.png">
-  <source src="${escapeHTML(String(g.videoUrl))}">
+<source src="${escapeHTML(String(g.videoUrl))}" type="video/mp4">
 </video>        `
         : `<div class="video-empty">Video coming soon</div>`;
 
@@ -1565,14 +1565,30 @@ menu.innerHTML = html;
 
 menu.querySelectorAll("details.menu-game").forEach((details) => {
   details.addEventListener("toggle", () => {
-    if (details.open) return;
 
-    details.querySelectorAll("video").forEach((vid) => {
-      try {
-        vid.pause();
-        vid.currentTime = 0;
-      } catch (e) {}
-    });
+    if (details.open) {
+      // Close all other open games
+      menu.querySelectorAll("details.menu-game").forEach((other) => {
+        if (other !== details) other.open = false;
+      });
+      return;
+    }
+
+// If closing, fully unload video
+details.querySelectorAll("video").forEach((vid) => {
+  try {
+    vid.pause();
+    vid.currentTime = 0;
+
+    // remove <source src="...">
+    const sources = vid.querySelectorAll("source");
+    sources.forEach((s) => s.removeAttribute("src"));
+
+    // force the browser to release the resource
+    vid.load();
+  } catch (e) {}
+});
+
   });
 });
 
