@@ -34,7 +34,7 @@ const GAMES = [
 
 **Optional challenge**
 Speed it up once you get the hang of it, or increase the number beyond five!`,
-  videoUrl: ""
+  videoUrl: "https://pub-1d6e4f1742544c2da598dbfc3f914025.r2.dev/RULES.mp4"
 },
 
 {
@@ -49,7 +49,7 @@ Speed it up once you get the hang of it, or increase the number beyond five!`,
 
 **Focus**
 • Let each word be truly based on what the other person just said. // • Avoid planning ahead or taking too long. // • The goal is to stay present and tuned in to each other.`,
-  videoUrl: ""
+  videoUrl: "https://pub-1d6e4f1742544c2da598dbfc3f914025.r2.dev/WORD%20ASSOCIATION%20A%20TO%20B.mp4"
 },
 
 {
