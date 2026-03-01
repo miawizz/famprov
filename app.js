@@ -1507,10 +1507,13 @@ function renderMenu() {
       const hasUrl = Boolean(g.videoUrl && String(g.videoUrl).trim().length);
       const videoHtml = hasUrl
         ? `
-          <video class="game-video" controls playsinline>
-            <source src="${escapeHTML(String(g.videoUrl))}">
-          </video>
-        `
+<video class="game-video"
+  controls
+  playsinline
+  preload="metadata"
+  poster="https://pub-1d6e4f1742544c2da598dbfc3f914025.r2.dev/thumbnail.png">
+  <source src="${escapeHTML(String(g.videoUrl))}">
+</video>        `
         : `<div class="video-empty">Video coming soon</div>`;
 
       const variations = (g.variations && g.variations.length)
