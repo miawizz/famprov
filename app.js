@@ -1523,7 +1523,7 @@ function renderMenu() {
             vtxt = vtxt.replace(/\n/g, "<br>");
             return `
               <details class="variation">
-                <summary>${escapeHTML(String(v.label || ""))}. ${escapeHTML(String(v.title || ""))}</summary>
+                <summary>${escapeHTML(String(v.title || ""))}</summary>
                 <div class="variation-body">${vtxt}</div>
               </details>
             `;
@@ -1558,29 +1558,44 @@ function renderMenu() {
     `;
   }).join("");
 
-  menu.innerHTML = html;
+menu.innerHTML = html;
+
+menu.querySelectorAll("details.menu-game").forEach((details) => {
+  details.addEventListener("toggle", () => {
+    if (details.open) return;
+
+    details.querySelectorAll("video").forEach((vid) => {
+      try {
+        vid.pause();
+        vid.currentTime = 0;
+      } catch (e) {}
+    });
+  });
+});
+
 }
 
 
   // Click handler for all game buttons
-let openGameNumber = null;
+if (els.menu && els.gameCard) {
+  let openGameNumber = null;
 
-els.menu.addEventListener("click", function (e) {
-  const btn = e.target.closest("[data-game]");
-  if (!btn) return;
+  els.menu.addEventListener("click", function (e) {
+    const btn = e.target.closest("[data-game]");
+    if (!btn) return;
 
-  const n = btn.getAttribute("data-game");
+    const n = btn.getAttribute("data-game");
 
-  // If you tap the same game again, collapse it
-  if (openGameNumber === n) {
-    els.gameCard.classList.add("hidden");
-    openGameNumber = null;
-    return;
-  }
+    if (openGameNumber === n) {
+      els.gameCard.classList.add("hidden");
+      openGameNumber = null;
+      return;
+    }
 
-  openGameNumber = n;
-  showGameByNumber(n);
-});
+    openGameNumber = n;
+    showGameByNumber(n);
+  });
+}
 
 
 function renderVariations(variations) {
@@ -1600,7 +1615,7 @@ function renderVariations(variations) {
 
     return `
       <details class="variation">
-        <summary>${v.label}. ${v.title}</summary>
+        <summary>${v.title}</summary>
         <div class="variation-body">${formatted}</div>
       </details>
     `;
