@@ -630,6 +630,30 @@ details.variation[open] .variation-body {
   background: rgba(0,0,0,0.18);
   border-top: none;
 }
+/* Keep game cards from ever expanding wider than the screen */
+.inline-game,
+#gameCard {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Make videos responsive on mobile */
+.game-video,
+#gameVideo {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+/* If any wrapper is causing overflow, clamp it */
+.game-video-wrap,
+.video-wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
 
 
 
