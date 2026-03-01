@@ -17,7 +17,7 @@ const GAMES = [
 - Once you succeed, try counting to twenty for a bigger challenge! //
 - Try looking at the floor so you’re not tempted to signal to each other to speak!`
 ,
-  videoUrl: ""
+  videoUrl: "https://pub-1d6e4f1742544c2da598dbfc3f914025.r2.dev/COUNTING%20TO%2010.mp4"
 },
 
 {
