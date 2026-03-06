@@ -427,19 +427,19 @@ const GAMES = [
 • If one word feels too tricky, try every other sentence or every other phrase.
 • Younger kids can say a few words while older kids or adults stick to one word.
 **Other fun word-at-a-time variations**
-• One Word **Commercial**
-• One Word **Motivational Speech**
-• One Word **News Report**: “This just in...”
-• One Word **Robot**: Answer questions like a robot
-• One Word **Poem**
-• One Word **Fortune Teller**
-• One Word **Complaint Letter**: “Dear...”
-• One Word **Dream**: “Last night I dreamt...”
-• One Word **Customer Service Hotline**
-• One Word **Movie Trailer**: “In a world...”
-• One Word **GPS Directions**
-• One Word **Love Letter**: “Dear...”
-• One Word **Saying**: “You know what they say...”`
+• One Word __Commercial__
+• One Word __Motivational Speech__
+• One Word __News Report__: “This just in...”
+• One Word __Robot__: Answer questions like a robot
+• One Word __Poem__
+• One Word __Fortune Teller__
+• One Word __Complaint Letter__: “Dear...”
+• One Word __Dream__: “Last night I dreamt...”
+• One Word __Customer Service Hotline__
+• One Word __Movie Trailer__: “In a world...”
+• One Word __GPS Directions__
+• One Word __Love Letter__: “Dear...”
+• One Word __Saying__: “You know what they say...”`
 },
 
 {
@@ -669,12 +669,12 @@ Secret crime: tooting at the playground with Buzz Lightyear.
 • One person “sings” the song using only chicken bawking sounds while following the melody and rhythm.
 • The other players listen and try to guess which song it is.
 **Fun variations**
-• **Baa** that tune
-• **Moo** that tune
-• **Croak** that tune
-• **Yawn** that tune
-• **Burp** that tune
-• Or invent your own sound like **Blub** that tune!`
+• __Baa__ that tune
+• __Moo__ that tune
+• __Croak__ that tune
+• __Yawn__ that tune
+• __Burp__ that tune
+• Or invent your own sound like __Blub__ that tune!`
 },
 
 {
