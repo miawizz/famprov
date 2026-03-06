@@ -510,6 +510,38 @@ details[open] .install-help__summary .caret{
 }
 
 /* =========================
+   TEXT SPACING FIX
+========================= */
+
+/* tighten paragraph spacing */
+.game-text{
+  line-height: 1.42;
+}
+
+/* reduce double line breaks */
+.game-text br + br{
+  display:block;
+  margin-top:4px;
+  content:"";
+}
+
+/* reduce spacing after headings */
+.game-text strong{
+  display:block;
+  font-weight:900;
+  font-size:1rem;
+  margin-top:8px;
+  margin-bottom:2px;
+  letter-spacing:0.01em;
+}
+
+/* tighten bullet spacing */
+.game-bullet{
+  margin-left:12px;
+  margin-bottom:2px;
+}
+
+/* =========================
    MOBILE
 ========================= */
 
