@@ -30,6 +30,8 @@ function formatText(text) {
 
   formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   formatted = formatted.replace(/^•\s(.+)$/gm, '<div class="game-bullet">• $1</div>');
+   // inline bold
+formatted = formatted.replace(/__(.*?)__/g, "<span class='inline-bold'>$1</span>");
 
   formatted = formatted.replace(
     /^(Optional challenge|Challenge|Example|Examples|Variation|Variations|Fun variations|Helpful guidelines|Helpful guideline|Tips|Tip|Helpful tip|Helpful way to start|Ways to play|Ways to play with more people|Ways to make it easier|Optional variations|Optional prompts|Optional prompts to inspire characters|Optional prompts to get you started|Prompt ideas|Fun twists|Roles|Note|Remember|Keep going|Other fun word-at-a-time variations|Silly scenarios|Opposing emotions|Infomercial|Shark Tank|Convergence|Magic Towel version|Face Filters version|Without sound|With sound|Two-device version|Two-device challenge|Helpful tip before playing|Ways to play anywhere|Example prompts|Tips for creating prompts|Tips for making prompts|Pressure-reducing tip|Warm-up option|Warm-up idea for younger kids|Variation: Nature Narrator)$/gm,
