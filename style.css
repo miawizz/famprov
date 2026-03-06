@@ -639,3 +639,10 @@ details[open] .install-help__summary .caret{
   line-height: 1.55;
   color: #1b2c30;
 }
+
+.game-text a,
+.welcome-text a{
+  color: var(--teal);
+  font-weight: 900;
+  text-decoration: none;
+}
