@@ -1,23 +1,22 @@
 const WELCOME_TEXT = `
 **Welcome to FAMPROV!**
-This guide includes all the games from the FAMPROV digital library in one place, so you can flip through them anytime when you want a quick idea for play.
+This guide includes all the games from the FAMPROV digital library in one place, so you can browse through them anytime you want a quick idea for play.
 
-Each game includes simple instructions to get you started, but feel free to adapt, remix, and invent your own versions as you go.
+Each game includes simple instructions to get you started, but feel free to adapt, remix, and invent your own versions as you go!
 **Other FAMPROV resources**
-• Cheat sheet: a one-page list of game titles for quick inspiration  
-• Printable guide booklet  
-• Video demonstrations, in-depth instructions, and extra tips in the course library, organized by category  
+• Printable guide booklet + cheat sheet
+• Video demonstrations in the course library, organized by category  
 **A few reminders as you play**
 • There are no winners or losers.  
 • There are no right or wrong answers.  
-• The goal is simply to have fun together.  
-• In improv, you are on the same team.  
-**A helpful improv idea**
+• The goal is simply to have fun together!  
+• In improv, we are all on the same team. 
+**Helful tips**
 • Improv games work best when everyone listens, collaborates, and builds on each other’s ideas.  
-• In improv, this is called “Yes, and” — going along with where the game is headed and adding something new.  
+• In improv, this is called “Yes, and” — going along with where the game is headed and adding something new! 
 **★ = games that work well with younger children**
 • Every child is different, and what works best can vary based on age, speech development, mood, and personality.  
-• Kids often learn best by watching others play.  
+• Kids often learn best by watching others play!  
 • Modeling the games with a partner, friend, or older sibling over time can help younger children join in.
 `;
 const GAMES = [
@@ -126,11 +125,11 @@ const GAMES = [
 **Convergence**
 • This works best with slightly older kids.
 • Count down from three and say two random words at the same time.
-• Without speaking, both players think of a word that could connect those two words.
+• Without speaking, both players think of a word that could connect THOSE two words.
 • On the next count of three, say that connecting word.
-• Continue repeating this process until you end up saying the same word at the same time.
+• Continue repeating this process until you end up saying the same word at the same time!
 **Tip**
-• If you start feeling stuck, reset and begin again with a brand-new word! The goal is to have fun, not to force it.`
+• If you start feeling stuck, reset and begin again with a brand-new word! Go out to go in. The goal is to have fun, not to force it.`
   }
   ,
   {
@@ -151,7 +150,7 @@ const GAMES = [
     text: `**How to play**
 • Try to make the facial expression of one emotion while using the voice or sound of the opposite emotion.
 **Example**
-• Make the face of someone who is really happy, but the sound of someone who is really sad.
+• Make the face of someone who is really happy, but the sound of someone who is really sad!
 **Opposing emotions**
 • Angry face / calm and peaceful voice
 • Scared face / brave superhero voice
@@ -174,7 +173,7 @@ const GAMES = [
 **Example**
 • The Voice says: “Let me tell you about my favorite thing to do on a rainy day…” while the Face mouths the words and exaggerates expressions to match the tone.
 **Fun twists**
-• Set up a camera so the Voice is off-screen. When you watch it back, it looks like the person lip syncing is actually talking.
+• Set up a camera so the Voice is off-screen. When you watch it back, it looks like the person lip syncing is actually talking!
 **Prompt ideas**
 • “Here’s my most embarrassing story…”
 • “This is the craziest thing that ever happened to me…”`
@@ -203,7 +202,7 @@ const GAMES = [
 **Two-device version**
 • One player secretly chooses three emojis and acts them out one at a time.
 • The other player writes or types the emojis they think are being performed.
-• Compare lists at the end to see how many matched.
+• Compare lists at the end to see how many matched!
 **Optional challenge**
 • Limit yourself to only facial movement with no sound.
 • Make the sound you think that emoji would be making.
@@ -216,7 +215,7 @@ const GAMES = [
     text: `**Magic Towel version**
 • Hold a towel, blanket, or piece of fabric in front of your face.
 • While your face is covered, quickly change your facial expression.
-• Lower the towel to reveal the new face as if it appeared by magic.
+• Lower the towel to reveal the new face as if it appeared by magic!
 **Challenge**
 • Speed it up so the expression appears to change instantly behind the towel, like a magic trick.
 **Face Filters version**
@@ -276,7 +275,7 @@ const GAMES = [
 • Choose one person to be the Interviewer and one person to be the Special Guest.
 • You can pretend it’s a radio show, podcast, or talk show.
 • The interviewer greets the “audience” and introduces the guest, inventing a random personality, job, or character for them.
-• The guest accepts the character and answers questions as that character, building on the details using that Yes, And principle.
+• The guest accepts the character and answers questions as that character, building on the details using that Yes, And principle!
 **Optional prompts to inspire characters**
 • A famous chef
 • A superhero
@@ -428,19 +427,19 @@ const GAMES = [
 • If one word feels too tricky, try every other sentence or every other phrase.
 • Younger kids can say a few words while older kids or adults stick to one word.
 **Other fun word-at-a-time variations**
-• One Word Commercial
-• One Word Motivational Speech
-• One Word News Report: “This just in...”
-• One Word Robot: Answer questions like a robot
-• One Word Poem
-• One Word Fortune Teller
-• One Word Complaint Letter: “Dear...”
-• One Word Dream: “Last night I dreamt...”
-• One Word Customer Service Hotline
-• One Word Movie Trailer: “In a world...”
-• One Word GPS Directions
-• One Word Love Letter: “Dear...”
-• One Word Saying: “You know what they say...”`
+• One Word **Commercial**
+• One Word **Motivational Speech**
+• One Word **News Report**: “This just in...”
+• One Word **Robot**: Answer questions like a robot
+• One Word **Poem**
+• One Word **Fortune Teller**
+• One Word **Complaint Letter**: “Dear...”
+• One Word **Dream**: “Last night I dreamt...”
+• One Word **Customer Service Hotline**
+• One Word **Movie Trailer**: “In a world...”
+• One Word **GPS Directions**
+• One Word **Love Letter**: “Dear...”
+• One Word **Saying**: “You know what they say...”`
 },
 
 {
@@ -467,9 +466,9 @@ const GAMES = [
 • The listener can ask questions along the way to help the story grow.
 **Prompt ideas**
 • Tell me about the time a cow wandered into your backyard and you had to find its owner.
-• Tell me about the time you were about to bite into an orange and it started screaming.
+• Tell me about the time you were about to bite into an orange and it started screaming!
 • Tell me about the time you drank so much lemonade you bounced onto the roof.
-• Tell me about the time your shoes ran away without you.`
+• Tell me about the time your shoes ran away without you!`
 }
   ,
 {
@@ -602,11 +601,11 @@ Secret identity: a dragon
 • The Interrogators give clues to help the Criminal guess each part.
 **Example**
 Secret crime: tooting at the playground with Buzz Lightyear.
-• “Let’s start with what you did. We’re all still recovering from the smell.”
+• “Let’s start with what you did. We’re all still recovering from the smell!”
 • Criminal guesses: “I tooted?”
 • “Exactly. But where you did it made it even worse.”
 • Criminal guesses: “The playground?”
-• “Yes. And we cannot believe who you did this with… to infinity and beyond.”
+• “Yes. And we cannot believe who you did this with. You really took this crime to the next level… to infinity and beyond.”
 • Criminal guesses: “Buzz Lightyear!”
 **Tips**
 • Choose an accomplice everyone knows.
@@ -670,12 +669,12 @@ Secret crime: tooting at the playground with Buzz Lightyear.
 • One person “sings” the song using only chicken bawking sounds while following the melody and rhythm.
 • The other players listen and try to guess which song it is.
 **Fun variations**
-• “Baa” that tune
-• “Moo” that tune
-• “Croak” that tune
-• “Yawn” that tune
-• “Burp” that tune
-• Or invent your own sound like “Blub that tune!”`
+• **Baa** that tune
+• **Moo** that tune
+• **Croak** that tune
+• **Yawn** that tune
+• **Burp** that tune
+• Or invent your own sound like **Blub** that tune!`
 },
 
 {
@@ -693,7 +692,7 @@ Secret crime: tooting at the playground with Buzz Lightyear.
 **Ways to play anywhere**
 • At home with household items
 • In the car with billboards or businesses you pass
-• At the store while shopping together`
+• At the store while shopping together!`
 },
 
 {
@@ -720,9 +719,9 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 **Example dance steps**
 • Put one hand on your belly.
 • Put the other hand on your belly.
-• Bend over and say “ouch.”
+• Bend over and say “Ouch!”
 • Sit down and roll on the floor.
-• Once everyone knows the steps, play music or sing and perform the dance together.`
+• Once everyone knows the steps, play music or sing and perform the dance together!`
 },
 
 {
@@ -762,7 +761,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • Sing a song together with big, dramatic arm movements.
 • Act out a story or short scene.
 • Record a silly birthday message for someone.
-• Use props like hats, scarves, or balloons to add chaos.`
+• Use props like hats, scarves, or balloons to add chaos!`
 },
 
 {
@@ -776,7 +775,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • Once the pose is complete, the Sculptor names the sculpture.
 **Example**
 • The Sculptor positions the Sculpture sitting down with hands on their head.
-• The Sculptor says, “I call this sculpture: You’re on a roller coaster and your wig just flew off.”`
+• The Sculptor says, “I call this sculpture: You’re on a roller coaster and your wig just flew off!”`
 },
 
 {
@@ -789,12 +788,12 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • While the lights are off, the other player or players strike a pose that matches the prompt as dramatically as possible.
 • At the end of the countdown, the Prompt-Giver turns the lights back on to reveal the poses.
 **Example prompts**
-• You just looked up and saw a grandma skydiving straight toward you.
+• You just looked up and saw a grandma skydiving straight toward you!
 • You’re a frog who just fell off your lily pad and feels very embarrassed.
-• You’re a snowman whose carrot nose just got eaten by the neighbor’s dog.
+• You’re a snowman whose carrot nose just got eaten by the neighbor’s dog!
 • You just caught a whiff of your own stinky armpit and you’re about to faint.
 **Tip**
-• If you can’t turn the lights off, the person counting can simply close their eyes.`
+• If you can’t turn the lights off, the person counting can simply close their eyes!`
 },
 
 {
@@ -820,7 +819,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 **Example**
 • Director: “Squat down.”
 • “Put your hands on the ground between your legs.”
-• “Stick your tongue out really fast and then pull it back in.”
+• “Stick your tongue out really fast and then pull it back in!”
 • Actor guesses: “I’m a frog catching a fly?”
 **Tip**
 • If this feels tricky or frustrating, regular charades is always a great fallback.`
@@ -830,7 +829,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
   category: "PHYSICAL GAMES",
   title: "Floating Dancer",
   text: `**How to play**
-• Set up your camera before starting so you can watch it back later.
+• Set up your camera before starting so you can watch it back later!
 • One person puts an oversized T-shirt on over their head without putting their arms through the sleeves.
 • They then put pants on their arms and socks and shoes on their hands.
 • That person kneels down and places their hands on the ground. The hands now function as the “legs.”
@@ -850,7 +849,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • As soon as the prompt is given, count down from ten while the other person acts it out as fully as they can.
 • When the countdown ends, stop, laugh, and switch roles with a new prompt.
 **Example prompts**
-• A baby bird hatching out of an egg, confused at first, then spotting its mom.
+• A baby bird hatching out of an egg, confused at first, then spotting its mom!
 • A rocking chair being built and rocked for the very first time.
 • A firework show going off in the sky.
 **Tips for creating prompts**
@@ -902,7 +901,7 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
   text: `**How to play**
 • Set a timer for 20 seconds.
 • When the timer starts, everyone rushes to grab nearby items and throws together a costume on the spot.
-• Anything goes.
+• Anything goes!
 • When time is up, freeze.
 • Take turns either proudly explaining your costume or delivering a line fully in character.
 **Example ideas**
@@ -919,8 +918,8 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • One person secretly fills a box with random everyday items.
 • They hand the box to the other player, who pretends they are filming an unboxing video.
 • The unboxer opens the box one item at a time and reacts with over-the-top excitement.
-• Describe each object as if it is impressive, luxurious, or groundbreaking.
-• You can even pretend the item is something completely different.
+• Describe each object as if it is impressive, luxurious, or groundbreaking!
+• You can even pretend the item is something completely different than what it actually is.
 **Example**
 • The unboxer pulls out a pencil and says,
 “Look at this. It’s solid wood. This thing is definitely not snapping in half during homework. You can just feel the quality!”
