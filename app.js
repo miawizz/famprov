@@ -26,8 +26,8 @@ function escapeHTML(str) {
 function formatText(text) {
   if (!text) return "";
 
-  let formatted = escapeHTML(text);
-
+let formatted = text;
+   
    formatted = formatted.replace(
   /\[course\]/g,
   '<a href="https://www.playfulheartparenting.com/view/courses/famprov-family-improv-games-for-connection" target="_blank" rel="noopener">course</a>'
