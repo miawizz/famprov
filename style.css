@@ -238,6 +238,12 @@ body{
   margin-top: 2px;
 }
 
+.game-text a{
+  color: var(--teal);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
 /* =========================
    VARIATIONS
 ========================= */
