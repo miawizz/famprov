@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#0E6F74" />
   <meta name="description" content="FAMPROV – family improv games for connection" />
 
-  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="manifest" href="manifest.webmanifest?v=3" />
   <link rel="icon" href="icons/icon-192.png" />
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
 
@@ -16,12 +16,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=3" />
 
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", function () {
-        navigator.serviceWorker.register("service-worker.js");
+        navigator.serviceWorker.register("service-worker.js?v=3", { updateViaCache: "none" });
       });
     }
   </script>
@@ -29,7 +29,6 @@
 
 <body>
 
-  <!-- One time courtesy overlay -->
   <section id="courtesyOverlay" role="dialog" aria-labelledby="courtesyTitle" aria-modal="true">
     <div class="courtesy-card">
       <h2 id="courtesyTitle">Thanks for supporting this work</h2>
@@ -45,7 +44,6 @@
     </div>
   </section>
 
-  <!-- Install help bar -->
   <details class="install-help gate-hide" id="install-help" data-dismiss-key="ph-install-help-famprov">
     <summary class="install-help__wrap">
       <div class="install-help__summary" role="button" aria-expanded="false">
@@ -108,7 +106,6 @@
   </details>
 
   <div class="app-shell">
-
     <header class="app-header">
       <img
         src="icons/famprov-logo-horizontal.png"
@@ -119,34 +116,10 @@
 
     <main class="main">
       <section class="welcome">
-        <p class="welcome-text">
-<strong>Pick a category, choose a game, and go for it!</strong>
-</p>
-
-<p>
-  You’ll see instructions, examples, and video demonstrations.
-</p>
-
-<p>
-  <strong>Remember:</strong>
-</p>
-
-<ul class="intro-list">
-  <li>There are no winners, losers, or wrong answers.</li>
-  <li>Feel free to change the rules, get silly, and come up with your own creative versions.</li>
-</ul>
-
-<p>
-  <strong>The only goal: have fun together!</strong>
-</p>
+        <div id="welcomeText" class="welcome-text"></div>
       </section>
 
-
-
-<section id="menu" class="menu"></section>
-
-
-
+      <section id="menu" class="menu"></section>
     </main>
 
     <footer class="app-footer">
@@ -154,12 +127,11 @@
       <p>This app is for personal use only by those who have purchased from Playful Heart Parenting.</p>
       <p>Please do not share this link publicly or distribute without explicit permission.</p>
     </footer>
-
   </div>
 
-<script src="app.js?v=2"></script>
-  
-  <!-- Courtesy gate logic -->
+  <script src="games.js?v=3"></script>
+  <script src="app.js?v=3"></script>
+
   <script>
     (function () {
       const COURTESY_KEY = "famprov_courtesy_v1";
@@ -198,7 +170,6 @@
     })();
   </script>
 
-  <!-- Install help logic -->
   <script>
     (function () {
       const root = document.getElementById("install-help");
