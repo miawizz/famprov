@@ -28,6 +28,11 @@ function formatText(text) {
 
   let formatted = escapeHTML(text);
 
+   formatted = formatted.replace(
+  /\[course\]/g,
+  '<a href="https://www.playfulheartparenting.com/view/courses/famprov-family-improv-games-for-connection" target="_blank" rel="noopener">course</a>'
+);
+
   formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
   formatted = formatted.replace(/^•\s(.+)$/gm, '<div class="game-bullet">• $1</div>');
    // inline bold
