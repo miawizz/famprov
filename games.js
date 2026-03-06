@@ -1,8 +1,7 @@
 const WELCOME_TEXT = `
 **Welcome to FAMPROV!**
-This guide includes all the games from the FAMPROV digital library in one place, so you can browse through them anytime you want a quick idea for play.
-
-Each game includes simple instructions to get you started, but feel free to adapt, remix, and invent your own versions as you go!
+This app includes the quick instructions for all the FAMPROV games in one place so you can easily browse ideas whenever you want a reminder or some inspiration.
+Free to adapt, remix, and invent your own versions as you go!
 **Other FAMPROV resources**
 • Printable guide booklet + cheat sheet
 • Video demonstrations in the course library, organized by category  
