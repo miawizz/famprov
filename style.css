@@ -209,6 +209,9 @@ body{
   line-height: 1.48;
   color: #1b2c30;
 }
+.inline-bold{
+  font-weight: 900;
+}
 
 .game-text strong{
   display: block;
