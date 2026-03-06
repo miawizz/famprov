@@ -28,13 +28,14 @@ function formatText(text) {
 
   let formatted = escapeHTML(text);
 
-  // bold markdown-style headings
   formatted = formatted.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>");
-
-  // bullet lines
   formatted = formatted.replace(/^•\s(.+)$/gm, '<div class="game-bullet">• $1</div>');
 
-  // preserve spacing
+  formatted = formatted.replace(
+    /^(Optional challenge|Challenge|Example|Examples|Variation|Variations|Fun variations|Helpful guidelines|Helpful guideline|Tips|Tip|Helpful tip|Helpful way to start|Ways to play|Ways to play with more people|Ways to make it easier|Optional variations|Optional prompts|Optional prompts to inspire characters|Optional prompts to get you started|Prompt ideas|Fun twists|Roles|Note|Remember|Keep going|Other fun word-at-a-time variations|Silly scenarios|Opposing emotions|Infomercial|Shark Tank|Convergence|Magic Towel version|Face Filters version|Without sound|With sound|Two-device version|Two-device challenge|Helpful tip before playing|Ways to play anywhere|Example prompts|Tips for creating prompts|Tips for making prompts|Pressure-reducing tip|Warm-up option|Warm-up idea for younger kids|Variation: Nature Narrator)$/gm,
+    "<strong>$1</strong>"
+  );
+
   formatted = formatted.replace(/\n{2,}/g, "<br><br>");
   formatted = formatted.replace(/\n/g, "<br>");
 
