@@ -71,21 +71,21 @@ body{
 
 .welcome-text{
   font-size: 0.98rem;
-  line-height: 1.6;
+  line-height: 1.5;
   color: #1b2c30;
 }
 
 .welcome-text strong{
   display: block;
   font-weight: 900;
-  margin-top: 14px;
-  margin-bottom: 6px;
+  margin-top: 10px;
+  margin-bottom: 4px;
 }
 
 .welcome-text br + br{
   display: block;
   content: "";
-  margin-top: 4px;
+  margin-top: 2px;
 }
 
 /* =========================
@@ -200,13 +200,13 @@ body{
   font-size: 1.3rem;
   line-height: 1.2;
   font-weight: 900;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   color: #132427;
 }
 
 .game-text{
   font-size: 1rem;
-  line-height: 1.65;
+  line-height: 1.48;
   color: #1b2c30;
 }
 
@@ -214,13 +214,25 @@ body{
   display: block;
   font-weight: 900;
   font-size: 1rem;
-  margin-top: 16px;
-  margin-bottom: 6px;
+  margin-top: 12px;
+  margin-bottom: 4px;
   letter-spacing: 0.01em;
+  color: #132427;
+}
+
+.game-text br + br{
+  display: block;
+  content: "";
+  margin-top: 3px;
 }
 
 .game-bullet{
-  margin-left: 0;
+  margin-left: 12px;
+  padding-left: 0;
+}
+
+.game-bullet + .game-bullet{
+  margin-top: 2px;
 }
 
 /* =========================
@@ -228,12 +240,12 @@ body{
 ========================= */
 
 .game-variations{
-  margin-top: 14px;
+  margin-top: 12px;
 }
 
 .variation-header{
-  margin-top: 14px;
-  margin-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 8px;
   font-weight: 800;
   color: #163438;
 }
@@ -242,7 +254,7 @@ details.variation{
   border: 1px solid rgba(14,111,116,0.14);
   border-radius: 14px;
   padding: 10px 12px;
-  margin: 10px 0;
+  margin: 8px 0;
   background: rgba(14,111,116,0.05);
 }
 
@@ -273,11 +285,17 @@ details.variation[open] > summary::after{
 }
 
 .variation-body{
-  margin-top: 10px;
-  padding-top: 10px;
+  margin-top: 8px;
+  padding-top: 8px;
   border-top: 1px solid rgba(14,111,116,0.14);
-  line-height: 1.6;
+  line-height: 1.5;
   color: #1b2c30;
+}
+
+.variation-body strong{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 4px;
 }
 
 /* =========================
@@ -516,6 +534,7 @@ details[open] .install-help__summary .caret{
 
   .game-text{
     font-size: 0.98rem;
+    line-height: 1.46;
   }
 }
 
@@ -536,7 +555,3 @@ details[open] .install-help__summary .caret{
     padding: 14px;
   }
 }
-
-
-
-
