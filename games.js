@@ -1,25 +1,19 @@
 const WELCOME_TEXT = `
 **Welcome to FAMPROV!**
-
 This guide includes all the games from the FAMPROV digital library in one place, so you can flip through them anytime when you want a quick idea for play.
-
 Each game includes simple instructions to get you started, but feel free to adapt, remix, and invent your own versions as you go.
-
 **Other FAMPROV resources**
 • Cheat sheet: a one-page list of game titles for quick inspiration  
 • Printable guide booklet  
 • Video demonstrations, in-depth instructions, and extra tips in the course library, organized by category  
-
 **A few reminders as you play**
 • There are no winners or losers.  
 • There are no right or wrong answers.  
 • The goal is simply to have fun together.  
 • In improv, you are on the same team.  
-
 **A helpful improv idea**
 • Improv games work best when everyone listens, collaborates, and builds on each other’s ideas.  
 • In improv, this is called “Yes, and” — going along with where the game is headed and adding something new.  
-
 **★ = games that work well with younger children**
 • Every child is different, and what works best can vary based on age, speech development, mood, and personality.  
 • Kids often learn best by watching others play.  
