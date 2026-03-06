@@ -1,6 +1,7 @@
 const WELCOME_TEXT = `
 **Welcome to FAMPROV!**
 This app includes the quick instructions for all the FAMPROV games in one place so you can easily browse ideas whenever you want a reminder or some inspiration.
+
 Free to adapt, remix, and invent your own versions as you go!
 **Other FAMPROV resources**
 • Printable guide booklet + cheat sheet
