@@ -541,6 +541,10 @@ details[open] .install-help__summary .caret{
   margin-bottom:2px;
 }
 
+.game-text{
+  word-spacing:0.01em;
+}
+
 /* =========================
    MOBILE
 ========================= */
