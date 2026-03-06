@@ -92,12 +92,12 @@ const GAMES = [
     text: `**How to play**
 • Players take turns saying, “What if I smiled like this?” and then immediately making the silliest, strangest, or most exaggerated smile they can think of.
 **Fun variations**
-• What if I **laughed** like this
-• What if I **cried** like this
-• What if I **sang** like this
-• What if I **farted** like this (use funny mouth sounds)
-• What if I **burped** like this
-• What if I **yawned** like this (this works especially well when everyone is tired! Try turning your yawn into a dramatic opera-style song or weird sound to brighten the mood)
+• What if I __laughed__ like this
+• What if I __cried__ like this
+• What if I __sang__ like this
+• What if I __farted__ like this (use funny mouth sounds)
+• What if I __burped__ like this
+• What if I __yawned__ like this (this works especially well when everyone is tired! Try turning your yawn into a dramatic opera-style song or weird sound to brighten the mood)
 **Challenge**
 • Try not to smile or laugh for real in between turns, and see if you can snap back to a neutral face!`
   },
