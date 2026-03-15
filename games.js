@@ -209,6 +209,18 @@ const GAMES = [
 • Exaggerate expressions as much as possible.`
   },
 
+{
+  category: "SOUND AND FACIAL EXPRESSION GAMES",
+  title: "Read My Lips",
+  text: `**How to play**
+• One player silently mouths a familiar song lyric or sentence while the other player tries to guess what is being said by watching their lips, facial expressions, and gestures.
+**Ways to adjust the challenge**
+**Easier**
+Use well-known songs, rhymes, or short phrases like “Row, Row, Row Your Boat” or “Happy Birthday!”
+**Harder**
+Use longer or sillier sentences like, “Have you ever tried eating ketchup on your ice cream?” or “The chicken wore sunglasses to the beach!”`
+},
+  
   {
     category: "SOUND AND FACIAL EXPRESSION GAMES",
     title: "★ Face Filters or Magic Towel",
