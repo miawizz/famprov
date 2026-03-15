@@ -4,7 +4,7 @@ This app includes the quick instructions for all the FAMPROV games in one place 
 
 Free to adapt, remix, and invent your own versions as you go!
 **Other FAMPROV resources**
-• Printable guide booklet + cheat sheet
+• <a href="./FAMPROV Printable Game Guide.pdf" target="_blank">Printable Game Guide</a> + <a href="./FAMPROV Cheat Sheet.pdf" target="_blank">Cheat Sheet</a>
 • Video demonstrations in the <a href="https://www.playfulheartparenting.com/view/courses/famprov-family-improv-games-for-connection" target="_blank">course library</a>, organized by category  
 **A few reminders as you play**
 • There are no winners or losers.  
