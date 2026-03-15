@@ -197,7 +197,7 @@ const GAMES = [
     category: "SOUND AND FACIAL EXPRESSION GAMES",
     title: "★ Guess the Emoji",
     text: `**How to play**
-• Take turns secretly choosing an emoji from the chart or from a device.
+• Take turns secretly choosing an emoji from a device or this chart: <a href="./FAMPROV Emoji Chart.pdf" target="_blank">Emoji Chart</a>
 • Act it out using only your face while the other player guesses which emoji you are portraying.
 **Two-device version**
 • One player secretly chooses three emojis and acts them out one at a time.
