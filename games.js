@@ -211,7 +211,7 @@ const GAMES = [
 
 {
   category: "SOUND AND FACIAL EXPRESSION GAMES",
-  title: "Read My Lips",
+  title: "★ Read My Lips",
   text: `**How to play**
 One player silently mouths a familiar song lyric or sentence while the other player tries to guess what is being said by watching their lips, facial expressions, and gestures.
 **Ways to adjust the challenge**
@@ -485,7 +485,7 @@ Use longer or sillier sentences like, “Have you ever tried eating ketchup on y
   ,
 {
   category: "CREATIVITY CHALLENGES",
-  title: "Fake Definitions",
+  title: "★ Fake Definitions",
   text: `**How to play**
 • One person invents a silly-sounding fake word.
 • Everyone else takes turns pretending they know exactly what it means.
@@ -592,7 +592,7 @@ Secret identity: a dragon
 **★ Warm-up idea for younger kids**
 • Instead of TV, use picture books.
 • Flip through the pages and “talk” for each character using voices, sound effects, or short lines.
-**Variation: Nature Narrator**
+**★Variation: Nature Narrator**
 • Turn on a family-friendly nature documentary and mute or lower the volume.
 • One player becomes the Narrator and describes what is happening in a dramatic voice.
 • The other players create animal sounds or voice the animals’ inner thoughts.`
@@ -722,7 +722,7 @@ Secret crime: tooting at the playground with Buzz Lightyear.
 
 {
   category: "MUSICAL GAMES",
-  title: "Fake Dance Trend",
+  title: "★ Fake Dance Trend",
   text: `**How to play**
 • One person pretends they have discovered a new dance trend.
 • They give the dance a name and teach it step by step.
@@ -733,7 +733,8 @@ Leader: “Have you heard of this new dance trend? It’s called I Ate Too Many 
 • Put the other hand on your belly.
 • Bend over and say “Ouch!”
 • Sit down and roll on the floor.
-• Once everyone knows the steps, play music or sing and perform the dance together!`
+• Once everyone knows the steps, play music or sing and perform the dance together!
+★Tip for younger kids: Give them dance move prompts like Angry Rhino, Ants in my Pants, or Popping Bubbles`
 },
 
 {
