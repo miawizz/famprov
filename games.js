@@ -218,7 +218,8 @@ One player silently mouths a familiar song lyric or sentence while the other pla
 **Easier**
 Use well-known songs, rhymes, or short phrases like “Row, Row, Row Your Boat” or “Happy Birthday!”
 **Harder**
-Use longer or sillier sentences like, “Have you ever tried eating ketchup on your ice cream?” or “The chicken wore sunglasses to the beach!”`
+Use longer or sillier sentences like, “Have you ever tried eating ketchup on your ice cream?” or “The chicken wore sunglasses to the beach!”
+★Tip for younger kids: Start by mouthing the names of family members to keep it simple!`
 },
   
   {
